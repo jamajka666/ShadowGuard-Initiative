@@ -263,6 +263,7 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-013 | Founding Edition release ještě ne | accepted |
 | D-014 | Manifesto, PRINCIPLES, Founder Journal | accepted |
 | D-015 | Manifesto v1.1 (text); ID zůstává SGF-006 | accepted |
+| D-016 | Manifesto v1.2; Way v1.1; Architecture později | accepted |
 
 ---
 
@@ -280,6 +281,19 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 
 ---
 
+### D-016 — Manifesto v1.2; Way v1.1; Architecture později
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | ChatGPT: Manifesto 1.1 má vlastní hlas; drobnost „Řídící princip“; psát Way jako další; Architecture odložit; Trust/Design před architekturou; znovu jiné SGF pořadí. |
+| **Rozhodnutí** | (1) Manifesto **v1.2** — Řídící princip / Guiding Principle / Leitprinzip. (2) Way **už je SGF-002** — ne greenfield; **v1.1** doplnit mezery. (3) Architecture **ne teď**. Další nový manuskript: **Trust Principles (SGF-008)**, pak Design (SGF-007), Brand (SGF-011). (4) Přečíslování **ne**. (5) Oficiální jméno: **ShadowGuard Foundation Manuscript**. |
+| **Důvod** | „Kdo jsme / jak pracujeme“ před „jak to postavíme“; stabilní ID; Way nepřepisovat z nuly. |
+| **Důsledky** | Roadmap: Trust → Design → Brand → revize → Founding Edition → teprve Direction. |
+
+---
+
 ## Revision Chronicle
 
 | Revize | Datum | Změna |
@@ -287,3 +301,4 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | 1.0 | 2026-07-30 | Založení knihy; rozhodnutí D-001 až D-009 z plánu a review zakladatele |
 | 1.0 | 2026-07-30 | D-010 až D-014 — dodatky ChatGPT + shoda (Manifesto, Protocol, fáze, release wait) |
 | 1.0 | 2026-07-30 | D-015 — Manifesto v1.1; potvrzení stabilních ID |
+| 1.0 | 2026-07-30 | D-016 — Manifesto v1.2, Way v1.1, pořadí další práce |
