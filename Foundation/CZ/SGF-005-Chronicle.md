@@ -163,6 +163,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — P1-1 SSRF guard (kód)
+
+- **Co:** `ssrfGuard.ts` + napojení na `getFullDomainSSLInfo`. Blokace interních IP/hostname; TLS jen na veřejnou IP. Self-test OK. Commit do private Shadvert; **deploy Lenovo zbývá** (stejný postup jako P0).
+- **Proč:** P1 z auditu — server se nesmí nechat navést na localhost/metadata/LAN.
+- **Další krok:** pull na Lenovo; pak Design Principles nebo zbytek P1/P2.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

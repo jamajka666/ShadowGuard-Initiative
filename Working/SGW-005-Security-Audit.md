@@ -115,7 +115,14 @@ Podmínka selže (a pustí request dál), když klient **nepošle** `familyCode`
 
 **Dopad:** útočník může nutit server připojovat se k interním IP / metadata službám (podle sítě) nebo skenovat port 443 v okolí. Domácí PC za CF tunnel stále otevírá odchozí TLS.
 
-**Náprava:** deny-list private IP (10/8, 172.16/12, 192.168/16, 127.0.0.0/8, link-local, metadata 169.254.169.254); povolit jen veřejné hostname; timeout už je (~4s) — ponechat.
+**Náprava (hotovo v kódu 2026-07-30):**  
+- modul `src/utils/ssrfGuard.ts`  
+- blokace private/reserved IP, localhost, `.local`/`.internal`, metadata hostnames  
+- DNS resolve **všech** adres — pokud jakákoli je neveřejná → odmítnout  
+- TLS connect na **veřejnou IP** + SNI = hostname  
+- self-test: 127.0.0.1 / localhost blocked, example.com allowed  
+
+**Deploy Lenovo:** ještě `git pull` + build (stejný postup jako P0).
 
 ---
 
@@ -221,7 +228,8 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | npm audit | **0 vulnerabilities** (po `npm install`) |
 
 **Hotovo:** deploy P0 na Lenovo (2026-07-30) — zakladatel potvrdil **Deploy OK**.  
-**Ještě ne:** SSRF guard, plná CSP, CI, doladění CSP pro SPA.
+**Hotovo v kódu:** SSRF guard P1-1 (`src/utils/ssrfGuard.ts`) — čeká `git pull` + build na Lenovo.  
+**Ještě ne:** plná CSP, CI, doladění CSP pro SPA.
 
 ---
 
@@ -242,3 +250,4 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | 1.0 | 2026-07-30 | První systematický audit kódu + live; P0–P3; plán nápravy |
 | 1.1 | 2026-07-30 | Opravy P0 v kódu na Asus; čeká deploy na Lenovo |
 | 1.2 | 2026-07-30 | Deploy Lenovo potvrzen zakladatelem (Deploy OK) |
+| 1.3 | 2026-07-30 | P1-1 SSRF guard v kódu; čeká deploy Lenovo |
