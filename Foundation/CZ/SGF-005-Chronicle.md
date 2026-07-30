@@ -179,6 +179,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — P1/P2 (+ SSRF) deploy OK; scam-alerts cache ověřena
+
+- **Co:** Zakladatel: deploy OK. Měření: 1. `X-Cache: MISS-ERROR` ~31,9 s (Gemini/search fail → fallback + cache), 2. `HIT` ~2,5 s. Cache funguje. Doplněn timeout 12 s + jasnější `cacheSource` (další pull).
+- **Proč:** MISS-ERROR ≠ rozbitá app — živé grounding selhalo, uživatel dostal fallback a další requesty jsou rychlé.
+- **Další krok:** volitelný pull timeoutu; ShadowLock Fáze A / Design Principles / pauza.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

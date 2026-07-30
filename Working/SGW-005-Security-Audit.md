@@ -253,3 +253,4 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | 1.2 | 2026-07-30 | Deploy Lenovo potvrzen zakladatelem (Deploy OK) |
 | 1.3 | 2026-07-30 | P1-1 SSRF guard v kódu; čeká deploy Lenovo |
 | 1.4 | 2026-07-30 | P1-2 cache alerts; CSP+HSTS; CI; tests; limity image/text |
+| 1.5 | 2026-07-30 | P1/P2 + SSRF deploy OK na Lenovo; scam-alerts MISS-ERROR→HIT ověřeno; timeout 12s |
