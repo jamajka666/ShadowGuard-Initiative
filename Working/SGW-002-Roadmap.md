@@ -35,8 +35,8 @@ Fáze vyjadřují **cestu**:
 - [x] Constitution, Way (v1.1), Founding Statement  
 - [x] Manifesto (v1.2), Decision Protocol, Foundation Index  
 - [x] Book of Decisions, Chronicle (živě)  
-- [ ] **Trust Principles (SGF-008)** — další nový manuskript  
-- [ ] **Design Principles (SGF-007)**  
+- [x] **Trust Principles (SGF-008)** v1.0  
+- [ ] **Design Principles (SGF-007)** — další nový manuskript  
 - [ ] Brand Identity (SGF-011) — až bude připraveno  
 - [ ] Interní revize všech Foundation textů (Golden Rule)  
 - [ ] Konzistence terminologie CZ/EN/DE  

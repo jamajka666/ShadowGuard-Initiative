@@ -38,6 +38,7 @@ Je to dohoda o tempu, kvalitě, rozhodování a spolupráci — aby projekt vydr
 | SGF-004 Book of Decisions | Trvalá rozhodnutí s odůvodněním |
 | SGF-005 Chronicle | Co se stalo a proč |
 | SGF-006 Manifesto | Jedna stránka víry; důvěra > rychlost |
+| SGF-008 Trust Principles | Konkrétní závazky důvěry (soukromí, vysvětlení, data) |
 | SGF-009 Decision Protocol | Jak vznikají důležitá rozhodnutí (ne hlasování) |
 | Working Library (SGW-*) | Sprinty, architektura, prompty, backlog |
 

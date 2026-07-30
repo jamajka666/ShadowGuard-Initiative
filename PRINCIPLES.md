@@ -17,4 +17,4 @@ Ten pravidel. Dvě minuty. Celý způsob myšlení.
 
 ---
 
-Hloubka: [Constitution](Foundation/CZ/SGF-001-Constitution.md) · [Manifesto](Foundation/CZ/SGF-006-Manifesto.md) · [Way](Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [Decision Protocol](Foundation/CZ/SGF-009-Decision-Protocol.md)
+Hloubka: [Constitution](Foundation/CZ/SGF-001-Constitution.md) · [Manifesto](Foundation/CZ/SGF-006-Manifesto.md) · [Trust Principles](Foundation/CZ/SGF-008-Trust-Principles.md) · [Way](Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [Decision Protocol](Foundation/CZ/SGF-009-Decision-Protocol.md)

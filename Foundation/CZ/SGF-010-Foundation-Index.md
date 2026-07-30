@@ -43,7 +43,7 @@
 | [SGF-005](SGF-005-Chronicle.md) | ShadowGuard Chronicle | Active (živý) | CZ |
 | [SGF-006](SGF-006-Manifesto.md) | ShadowGuard Manifesto | Founding Edition **v1.2** | CZ / EN / DE |
 | SGF-007 | Design Principles | rezervováno — později | — |
-| SGF-008 | Trust Principles | rezervováno — později | — |
+| [SGF-008](SGF-008-Trust-Principles.md) | Trust Principles | Founding Edition **v1.0** | CZ / EN / DE |
 | [SGF-009](SGF-009-Decision-Protocol.md) | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-010 | Foundation Index | Active (tento dokument) | CZ (+ EN/DE dle potřeby) |
 | SGF-011 | Brand Identity | rezervováno — později | — |

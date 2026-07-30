@@ -139,6 +139,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Trust Principles v1.0 (SGF-008)
+
+- **Co:** Nový Foundation Manuscript — 10 principů důvěry (transparentnost, vysvětlitelnost, poctivá nejistota, důkaz, soukromí, minimální data, security without fear, žádný absolutní slib, konzistence, důvěra před funkcemi) + rodinný model + AI + checklist. CZ/EN/DE.
+- **Proč:** ChatGPT i plán: důvěra rozepsat dřív než Design a Architecture. Navazuje na Constitution, Manifesto a PRINCIPLES.md.
+- **Další krok:** SGF-007 Design Principles.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

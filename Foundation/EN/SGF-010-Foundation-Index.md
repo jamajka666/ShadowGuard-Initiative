@@ -43,7 +43,7 @@
 | SGF-005 | ShadowGuard Chronicle | Active (living) | CZ |
 | SGF-006 | ShadowGuard Manifesto | Founding Edition v1.2 | CZ / EN / DE |
 | SGF-007 | Design Principles | reserved — later | — |
-| SGF-008 | Trust Principles | reserved — later | — |
+| SGF-008 | Trust Principles | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-009 | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-010 | Foundation Index | Active (this document) | CZ / EN |
 | SGF-011 | Brand Identity | reserved — later | — |

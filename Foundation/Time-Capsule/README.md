@@ -32,6 +32,7 @@ Za roky bude cennější vidět, odkud jsme vyšli, než jen kam jsme došli.
 | 2026-07-30 | SGF-006 Manifesto v1.0 | `Foundation/*/SGF-006-Manifesto.md` |
 | 2026-07-30 | SGF-009 Decision Protocol v1.0 | `Foundation/*/SGF-009-Decision-Protocol.md` |
 | 2026-07-30 | PRINCIPLES.md | kořen repozitáře |
+| 2026-07-30 | SGF-008 Trust Principles v1.0 | `Foundation/*/SGF-008-Trust-Principles.md` |
 | 2026-07-27+ | Live Shadvert | https://shadowguard-shadvert.site/ |
 | — | Grafické nápady | U zakladatele v meziskladu; vybrané kusy sem později |
 
