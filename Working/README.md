@@ -27,8 +27,8 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 ## Aktuální fokus
 
 1. ~~Foundation jádro + Manifesto + Decision Protocol + Trust~~ — v gitu.  
-2. **Security (P0):** [SGW-005 Security Audit](SGW-005-Security-Audit.md) — opravy v kódu Shadvert na Asus; **deploy Lenovo po kontrole**.  
-3. Design Principles (SGF-007) paralelne / hned po P0 deploy.  
+2. **Security (P0):** [SGW-005](SGW-005-Security-Audit.md) — opravy + **deploy Lenovo OK** (2026-07-30). Další: P1 SSRF.  
+3. **Design Principles (SGF-007)** — další Foundation manuskript.  
 4. Architecture až po bezpečném základu (D-017).
 
 Způsob práce: [SGF-002 Way](../Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [SGF-009 Decision Protocol](../Foundation/CZ/SGF-009-Decision-Protocol.md)  

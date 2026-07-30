@@ -155,6 +155,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Deploy P0 na Lenovo: OK
+
+- **Co:** Zakladatel potvrdil úspěšný deploy security P0 na produkční Lenovo (live Shadvert).
+- **Proč:** Druhá noha důvěry — principy + reálně nasazená ochrana (heartbeat, rate-limit, helmet).
+- **Další krok:** P1 (SSRF guard) a/nebo SGF-007 Design Principles; Founding Edition release stále ne.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

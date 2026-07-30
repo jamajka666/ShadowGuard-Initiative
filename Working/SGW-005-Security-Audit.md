@@ -220,7 +220,18 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | P2-8 Timing-safe compare | Admin token + family code přes `crypto.timingSafeEqual` |
 | npm audit | **0 vulnerabilities** (po `npm install`) |
 
-**Ještě ne:** SSRF guard, plná CSP, CI, deploy na Lenovo (live zatím starý build).
+**Hotovo:** deploy P0 na Lenovo (2026-07-30) — zakladatel potvrdil **Deploy OK**.  
+**Ještě ne:** SSRF guard, plná CSP, CI, doladění CSP pro SPA.
+
+---
+
+## 8. Deploy Lenovo — potvrzení
+
+| Položka | Stav |
+|---------|------|
+| Pull + build + restart na Lenovo | **OK** (potvrzení zakladatele) |
+| Live `shadowguard-shadvert.site` | běží s P0 kódem |
+| Další P1 | SSRF guard, cache scam-alerts, silnější CSP |
 
 ---
 
@@ -230,3 +241,4 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 |--------|-------|--------|
 | 1.0 | 2026-07-30 | První systematický audit kódu + live; P0–P3; plán nápravy |
 | 1.1 | 2026-07-30 | Opravy P0 v kódu na Asus; čeká deploy na Lenovo |
+| 1.2 | 2026-07-30 | Deploy Lenovo potvrzen zakladatelem (Deploy OK) |
