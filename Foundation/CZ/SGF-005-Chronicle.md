@@ -95,7 +95,15 @@ Formát zápisu:
 - **Co:** SGF-001 ShadowGuard Constitution ve třech Official Language Editions (CZ / EN / DE). Rozšíření draftu z 29. 7. o články: bezpečnost jako cesta k důvěře, AI jako nástroj, pravidlo pro funkce, ekosystém až po pevném jádru, zakládací otázka, poděkování.
 - **Proč:** Zakladatel schválil stávající tón Foundation textů; Constitution je hlavní „proč“ dokument. Význam překládán, ne písmena.
 - **Rozhodnutí:** navazuje na D-006 (tři jazyky), D-007 (security), D-009 (žádné slepé slogany — text je věcný).
-- **Další krok:** SGF-002 The ShadowGuard Way (jak pracujeme denně).
+- **Další krok:** SGF-002 The ShadowGuard Way.
+
+---
+
+### 2026-07-30 — The ShadowGuard Way Founding Edition v1.0
+
+- **Co:** SGF-002 ve CZ / EN / DE — tempo 8–12 h, sezení s jedním cílem, rozhodování s variantami, práce s AI (kolektivní pohled, finále u zakladatele), kvalita a testy včetně nepravděpodobných scénářů, security first, Lenovo/Asus, checklist před „hotovo“.
+- **Proč:** Constitution říká proč; Way říká jak denně, aby se plán dal dodržet bez zbytečného stresu.
+- **Další krok:** Working Library (Roadmap + Architecture Truth), volitelně release `foundation-v1.0`.
 
 ---
 

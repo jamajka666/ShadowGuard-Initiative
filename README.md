@@ -55,8 +55,8 @@ Foundation dokumenty mají Official Language Editions: **CZ** (vznik myšlenek),
 | SGF-003 Founding Statement | Founding Edition v1.0 (CZ / EN / DE) |
 | SGF-004 Book of Decisions | aktivní |
 | SGF-005 Chronicle | aktivní |
-| SGF-002 The ShadowGuard Way | připravuje se |
-| Stabilizace Shadvert 1.0 | po dokončení základů Foundation |
+| SGF-002 The ShadowGuard Way | Founding Edition v1.0 (CZ / EN / DE) |
+| Stabilizace Shadvert 1.0 | další: Working Library → security / hybrid |
 
 ## Práce na projektu
 
