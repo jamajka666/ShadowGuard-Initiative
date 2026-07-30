@@ -5,7 +5,7 @@
 | **Document ID** | SGF-002 |
 | **Title** | The ShadowGuard Way |
 | **Edition** | Founding Edition |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Language** | English (EN) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -22,7 +22,8 @@
 The **Constitution (SGF-001)** states *why* we exist and *what* we stand for.  
 **The ShadowGuard Way** states *how* we work day by day.
 
-This is not a programming tutorial.  
+This is an official **ShadowGuard Foundation Manuscript** — not a README or a blog post.  
+It is not a programming tutorial.  
 It is an agreement on pace, quality, decisions, and collaboration — so the project lasts and stays true to the people it was built for.
 
 ---
@@ -69,6 +70,9 @@ The Constitution defines them. The Way turns them into habits:
 5. Better to **read three times** than skim once and ship something wrong.
 
 Patience grows roses. A rushed verdict for a senior can grow harm.
+
+**We would rather ship a month later than a day earlier** if haste would mean false certainty, a security hole, or text we do not believe ourselves.  
+Speed without trust is not progress. It is debt.
 
 ---
 
@@ -129,7 +133,41 @@ The goal is the **best possible version** of the idea with open eyes.
 
 ---
 
-## VIII. Product quality and testing
+## VIII. Criticism and objections
+
+- Criticism is **input**, not a personal attack.  
+- An objection may come **at any time** — even after “agreement” — if a new argument or fact appears.  
+- Every serious objection deserves a hearing and either incorporation or a **written rejection with reasons** (not silent ignoring).  
+- “I don’t like it” without reasons is weaker than “this risk is uncovered because…”.  
+- The founder may disagree with most advisors if they can carry the justification.
+
+---
+
+## IX. Changing our mind
+
+Changing our mind after a better argument is **not weakness**. It is discipline.
+
+1. Admit the previous decision rested on X.  
+2. Name the new fact or stronger argument.  
+3. Record the revision (Book of Decisions: *superseded* / new entry).  
+4. Adjust the work — do not keep the old decision out of inertia.
+
+The Constitution and Manifesto change rarely.  
+Working plans and technical choices may change when truth outgrows ego.
+
+---
+
+## X. Checking facts and admitting uncertainty
+
+- For user-facing verdicts: **evidence > impression > guess**.  
+- AI may explain; it **must not invent facts** (domain age, company existence, “official” status).  
+- Hybrid: hard rules and verifiable signals where possible; AI adds human language.  
+- When unsure: **say so** (yellow / “we don’t know enough”) — not a false green.  
+- For Foundation texts: Golden Rule — we publish when it says what we mean, not when it merely “sounds smart”.
+
+---
+
+## XI. Product quality and testing
 
 1. We build for **ordinary people**, not for developers.  
 2. We use the version that already works and improve it **step by step** — we do not rewrite everything overnight without reason.  
@@ -141,7 +179,7 @@ Until the core is solid (security, reliable verdict, clarity), we **do not add n
 
 ---
 
-## IX. Code and engineering (working principles)
+## XII. Code and engineering (working principles)
 
 - **Security first** in every technical sprint (D-007).  
 - No API keys, tokens, or passwords in git, in the frontend, or in screenshots.  
@@ -152,7 +190,7 @@ Until the core is solid (security, reliable verdict, clarity), we **do not add n
 
 ---
 
-## X. Documenting the journey
+## XIII. Documenting the journey
 
 We want the journey to be traceable:
 
@@ -171,7 +209,7 @@ We document so we are not ashamed of chaos a year later — not so we write nove
 
 ---
 
-## XI. Scope and backlog
+## XIV. Scope and backlog
 
 - A new idea mid-session → **backlog**, not an instant detour.  
 - An ecosystem of further apps may live in **vision and docs**; development only after Shadvert 1.0 DoD.  
@@ -179,7 +217,7 @@ We document so we are not ashamed of chaos a year later — not so we write nove
 
 ---
 
-## XII. Languages and brand
+## XV. Languages and brand
 
 - **CZ** — language where ideas are born.  
 - **EN** — official international edition.  
@@ -189,7 +227,7 @@ We document so we are not ashamed of chaos a year later — not so we write nove
 
 ---
 
-## XIII. What we deliberately do not do (now)
+## XVI. What we deliberately do not do (now)
 
 - We do not build a second app “because we can”.  
 - We do not chase every external API in the world before the core works.  
@@ -199,7 +237,7 @@ We document so we are not ashamed of chaos a year later — not so we write nove
 
 ---
 
-## XIV. Short checklist (keep it in your head)
+## XVII. Short checklist (keep it in your head)
 
 Before merge / before “done”:
 
@@ -215,7 +253,7 @@ If you cannot answer one of these — **we are not done yet**.
 
 ---
 
-## XV. Closing line
+## XVIII. Closing line
 
 Good ideas are not ruined by patience.  
 They are ruined by haste, confusion, and losing respect for the person on the other side of the screen.
@@ -229,3 +267,4 @@ The ShadowGuard Way is a reminder not to do that.
 | Revision | Date | Change |
 |----------|------|--------|
 | Founding Edition 1.0 | 2026-07-30 | First official text — pace, decisions, AI, quality, code, documentation |
+| Founding Edition 1.1 | 2026-07-30 | Month later > day early; criticism; changing mind; facts; Foundation Manuscript label |

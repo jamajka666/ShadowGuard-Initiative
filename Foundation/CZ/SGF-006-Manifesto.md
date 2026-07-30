@@ -5,7 +5,7 @@
 | **Document ID** | SGF-006 |
 | **Title** | ShadowGuard Manifesto |
 | **Edition** | Founding Edition |
-| **Version** | 1.1 |
+| **Version** | 1.2 |
 | **Language** | Czech (CZ) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -56,7 +56,7 @@ Je to závazek **nikdy nepřestat vytvářet software, kterému mohou lidé dův
 
 ---
 
-*Jedna řídící věta projektu:*  
+*Řídící princip:*  
 **Nikdy neobětovat důvěru kvůli rychlosti.**
 
 ---
@@ -72,3 +72,4 @@ Pokud jednou pomůže tisícům, nikdy nesmí zapomenout, **kde byl její začá
 |--------|-------|--------|
 | Founding Edition 1.0 | 2026-07-30 | První oficiální znění (jedna stránka) |
 | Founding Edition 1.1 | 2026-07-30 | Právo na bezpečí jako úvod; respekt vs důvěra; podpis o začátku u jednoho člověka (review ChatGPT + Decision Protocol) |
+| Founding Edition 1.2 | 2026-07-30 | Typografie: „Řídící princip“ místo „řídící věta“ |

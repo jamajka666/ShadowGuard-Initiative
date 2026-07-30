@@ -5,7 +5,7 @@
 | **Document ID** | SGF-002 |
 | **Title** | The ShadowGuard Way |
 | **Edition** | Founding Edition |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Language** | Czech (CZ) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -22,7 +22,8 @@
 **Constitution (SGF-001)** říká *proč* existujeme a *čím* se řídíme.  
 **The ShadowGuard Way** říká *jak* pracujeme den za dnem.
 
-Toto není návod na programování.  
+Toto je oficiální **ShadowGuard Foundation Manuscript** — ne README ani blogový post.  
+Není to návod na programování.  
 Je to dohoda o tempu, kvalitě, rozhodování a spolupráci — aby projekt vydržel a zůstal věrný lidem, pro které vznikl.
 
 ---
@@ -69,6 +70,9 @@ Constitution je definuje. Way je převádí do návyků:
 5. Lepší **třikrát přečíst** než jednou prolistovat a spustit špatně.
 
 Trpělivost nese růže. Unáhlený verdikt u seniora nese škody.
+
+**Raději vydáme něco o měsíc později než o den dřív** — pokud by spěch znamenal falešnou jistotu, díru v bezpečnosti, nebo text, kterému sami nevěříme.  
+Rychlost bez důvěry není pokrok. Je to dluh.
 
 ---
 
@@ -129,7 +133,41 @@ Cíl je **nejlepší možná verze** nápadu s otevřenýma očima.
 
 ---
 
-## VIII. Kvalita produktu a testování
+## VIII. Kritika a námitky
+
+- Kritika je **vstup**, ne útok na osobu.  
+- Námitka může přijít **kdykoli** — i po „shodě“ — pokud přibyl nový argument nebo fakt.  
+- Každá vážná námitka si zaslouží vyslechnutí a buď zapracování, nebo **zapsané odmítnutí s důvodem** (ne tiché ignorování).  
+- „To se mi nelíbí“ bez důvodu je slabší než „tohle riziko jsme nepokryli, protože…“.  
+- Zakladatel smí nesouhlasit s většinou poradců, pokud unese odůvodnění.
+
+---
+
+## IX. Změna názoru
+
+Měnit názor po lepším argumentu **není slabost**. Je to disciplína.
+
+1. Přiznat, že předchozí rozhodnutí stálo na X.  
+2. Pojmenovat nový fakt nebo silnější argument.  
+3. Zapsat revizi (Book of Decisions: status *superseded* / nový záznam).  
+4. Upravit práci — ne držet staré rozhodnutí ze setrvačnosti.
+
+Constitution a Manifesto se mění vzácně.  
+Working plány a technické volby se smí měnit, když pravda přeroste ego.
+
+---
+
+## X. Ověřování faktů a přiznání nejistoty
+
+- U verdiktu pro uživatele: **důkaz > dojem > domněnka**.  
+- AI smí vysvětlovat; **nesmí si vymýšlet fakta** (stáří domény, existence firmy, „oficiální“ status).  
+- Hybrid: pevná pravidla a ověřitelné signály tam, kde jdou; AI doplňuje lidský jazyk.  
+- Když si nejsme jistí: **říct nejistotu** (žlutá / „nevíme dost“) — ne falešnou zelenou.  
+- U Foundation textů: Golden Rule — vydáváme, až to říká, co myslíme, ne až to „zní chytře“.
+
+---
+
+## XI. Kvalita produktu a testování
 
 1. Stavíme pro **běžné lidi**, ne pro vývojáře.  
 2. Využíváme už hotovou verzi a **krok za krokem** ji zdokonalujeme — ne přepisujeme ze dne na den bez důvodu.  
@@ -141,7 +179,7 @@ Dokud není hotové jádro (bezpečnost, spolehlivý verdikt, srozumitelnost), *
 
 ---
 
-## IX. Kód a technika (pracovní zásady)
+## XII. Kód a technika (pracovní zásady)
 
 - **Security first** v každém technickém sprintu (D-007).  
 - Žádné API klíče, tokeny ani hesla v gitu, ve frontendu ani ve screencastech.  
@@ -152,7 +190,7 @@ Dokud není hotové jádro (bezpečnost, spolehlivý verdikt, srozumitelnost), *
 
 ---
 
-## X. Dokumentace průběhu
+## XIII. Dokumentace průběhu
 
 Kompletní průběh chceme mít dohledatelný:
 
@@ -171,7 +209,7 @@ Dokumentujeme proto, abychom se za rok nestyděli za chaos — ne proto, abychom
 
 ---
 
-## XI. Scope a backlog
+## XIV. Scope a backlog
 
 - Nový nápad uprostřed sezení → **backlog**, ne okamžitá odbočka.  
 - Ekosystém dalších aplikací smí žít ve **vizi a dokumentaci**; vývoj až po DoD Shadvert 1.0.  
@@ -179,7 +217,7 @@ Dokumentujeme proto, abychom se za rok nestyděli za chaos — ne proto, abychom
 
 ---
 
-## XII. Jazyky a značka
+## XV. Jazyky a značka
 
 - **CZ** — jazyk vzniku myšlenek.  
 - **EN** — oficiální mezinárodní verze.  
@@ -189,7 +227,7 @@ Dokumentujeme proto, abychom se za rok nestyděli za chaos — ne proto, abychom
 
 ---
 
-## XIII. Co záměrně neděláme (teď)
+## XVI. Co záměrně neděláme (teď)
 
 - Nestavíme druhou appku „protože můžeme“.  
 - Nehoníme všechny externí API světa, dokud nefunguje jádro.  
@@ -199,7 +237,7 @@ Dokumentujeme proto, abychom se za rok nestyděli za chaos — ne proto, abychom
 
 ---
 
-## XIV. Krátký checklist (vytiskni si v hlavě)
+## XVII. Krátký checklist (vytiskni si v hlavě)
 
 Před merge / před „hotovo“:
 
@@ -215,7 +253,7 @@ Když na něco z toho nevíš odpověď — **ještě nejsme hotoví**.
 
 ---
 
-## XV. Závěrečná věta
+## XVIII. Závěrečná věta
 
 Dobré nápady se nekazí trpělivostí.  
 Kazí se spěchem, zmatkem a ztrátou úcty k člověku na druhé straně obrazovky.
@@ -229,3 +267,4 @@ The ShadowGuard Way je připomínka, abychom to nedělali.
 | Revize | Datum | Změna |
 |--------|-------|--------|
 | Founding Edition 1.0 | 2026-07-30 | První oficiální znění — tempo, rozhodování, AI, kvalita, kód, dokumentace |
+| Founding Edition 1.1 | 2026-07-30 | Měsíc později > den dřív; kritika; změna názoru; ověřování faktů; označení Foundation Manuscript |

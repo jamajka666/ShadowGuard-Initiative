@@ -5,7 +5,7 @@
 | **Document ID** | SGF-002 |
 | **Title** | The ShadowGuard Way |
 | **Edition** | Founding Edition |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Language** | German (DE) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -22,7 +22,8 @@
 Die **Constitution (SGF-001)** sagt, *warum* wir existieren und *wonach* wir uns richten.  
 **The ShadowGuard Way** sagt, *wie* wir Tag für Tag arbeiten.
 
-Das ist keine Programmieranleitung.  
+Das ist ein offizielles **ShadowGuard Foundation Manuscript** — kein README und kein Blogpost.  
+Es ist keine Programmieranleitung.  
 Es ist eine Vereinbarung über Tempo, Qualität, Entscheidungen und Zusammenarbeit — damit das Projekt hält und den Menschen treu bleibt, für die es entstand.
 
 ---
@@ -69,6 +70,9 @@ Die Constitution definiert sie. Der Way macht daraus Gewohnheiten:
 5. Lieber **dreimal lesen** als einmal überfliegen und falsch ausliefern.
 
 Geduld trägt Rosen. Ein überstürztes Urteil für einen Senior kann Schaden tragen.
+
+**Lieber einen Monat später veröffentlichen als einen Tag früher** — wenn Eile falsche Gewissheit, ein Sicherheitsloch oder Text bedeuten würde, dem wir selbst nicht glauben.  
+Geschwindigkeit ohne Vertrauen ist kein Fortschritt. Es ist Schulden.
 
 ---
 
@@ -129,7 +133,41 @@ Ziel ist die **bestmögliche Version** der Idee mit offenen Augen.
 
 ---
 
-## VIII. Produktqualität und Tests
+## VIII. Kritik und Einwände
+
+- Kritik ist **Input**, kein persönlicher Angriff.  
+- Ein Einwand darf **jederzeit** kommen — auch nach „Einigkeit“ — wenn ein neues Argument oder Fakt hinzukommt.  
+- Jeder ernste Einwand verdient Gehör und entweder Einarbeitung oder eine **schriftliche Ablehnung mit Grund** (kein stilles Ignorieren).  
+- „Das gefällt mir nicht“ ohne Grund ist schwächer als „dieses Risiko ist ungedeckt, weil…“.  
+- Der Gründer darf mit den meisten Beratern uneinig sein, wenn er die Begründung trägt.
+
+---
+
+## IX. Meinung ändern
+
+Die Meinung nach einem besseren Argument zu ändern ist **keine Schwäche**. Es ist Disziplin.
+
+1. Einräumen, dass die frühere Entscheidung auf X beruhte.  
+2. Den neuen Fakt oder das stärkere Argument benennen.  
+3. Die Revision festhalten (Book of Decisions: *superseded* / neuer Eintrag).  
+4. Die Arbeit anpassen — alte Entscheidungen nicht aus Trägheit halten.
+
+Constitution und Manifesto ändern sich selten.  
+Working-Pläne und technische Wahlen dürfen sich ändern, wenn die Wahrheit das Ego überholt.
+
+---
+
+## X. Fakten prüfen und Unsicherheit zugeben
+
+- Beim Nutzer-Urteil: **Beleg > Eindruck > Vermutung**.  
+- KI darf erklären; sie **darf keine Fakten erfinden** (Domain-Alter, Firmenexistenz, „offizieller“ Status).  
+- Hybrid: feste Regeln und prüfbare Signale wo möglich; KI liefert Alltagssprache.  
+- Bei Unsicherheit: **sagen** (gelb / „wir wissen nicht genug“) — kein falsches Grün.  
+- Bei Foundation-Texten: Golden Rule — veröffentlichen, wenn es sagt, was wir meinen, nicht nur wenn es „klug klingt“.
+
+---
+
+## XI. Produktqualität und Tests
 
 1. Wir bauen für **gewöhnliche Menschen**, nicht für Entwickler.  
 2. Wir nutzen die bereits laufende Version und verbessern sie **Schritt für Schritt** — wir schreiben nicht ohne Grund über Nacht alles neu.  
@@ -141,7 +179,7 @@ Solange der Kern nicht steht (Sicherheit, zuverlässiges Urteil, Verständlichke
 
 ---
 
-## IX. Code und Technik (Arbeitsgrundsätze)
+## XII. Code und Technik (Arbeitsgrundsätze)
 
 - **Security first** in jedem technischen Sprint (D-007).  
 - Keine API-Schlüssel, Tokens oder Passwörter in Git, im Frontend oder in Screenshots.  
@@ -152,7 +190,7 @@ Solange der Kern nicht steht (Sicherheit, zuverlässiges Urteil, Verständlichke
 
 ---
 
-## X. Verlauf dokumentieren
+## XIII. Verlauf dokumentieren
 
 Wir wollen den Verlauf nachvollziehbar halten:
 
@@ -171,7 +209,7 @@ Wir dokumentieren, damit wir uns in einem Jahr nicht für Chaos schämen — nic
 
 ---
 
-## XI. Scope und Backlog
+## XIV. Scope und Backlog
 
 - Neue Idee mitten in der Sitzung → **Backlog**, kein sofortiger Abstecher.  
 - Ein Ökosystem weiterer Apps darf in **Vision und Docs** leben; Entwicklung erst nach Shadvert-1.0-DoD.  
@@ -179,7 +217,7 @@ Wir dokumentieren, damit wir uns in einem Jahr nicht für Chaos schämen — nic
 
 ---
 
-## XII. Sprachen und Marke
+## XV. Sprachen und Marke
 
 - **CZ** — Sprache, in der Gedanken entstehen.  
 - **EN** — offizielle internationale Edition.  
@@ -189,7 +227,7 @@ Wir dokumentieren, damit wir uns in einem Jahr nicht für Chaos schämen — nic
 
 ---
 
-## XIII. Was wir absichtlich (jetzt) nicht tun
+## XVI. Was wir absichtlich (jetzt) nicht tun
 
 - Wir bauen keine zweite App „weil wir können“.  
 - Wir jagen nicht alle externen APIs der Welt, bevor der Kern läuft.  
@@ -199,7 +237,7 @@ Wir dokumentieren, damit wir uns in einem Jahr nicht für Chaos schämen — nic
 
 ---
 
-## XIV. Kurze Checkliste (im Kopf behalten)
+## XVII. Kurze Checkliste (im Kopf behalten)
 
 Vor Merge / vor „fertig“:
 
@@ -215,7 +253,7 @@ Wenn du eine Antwort nicht weißt — **sind wir noch nicht fertig**.
 
 ---
 
-## XV. Schlusssatz
+## XVIII. Schlusssatz
 
 Gute Ideen verderben nicht durch Geduld.  
 Sie verderben durch Eile, Chaos und den Verlust des Respekts vor dem Menschen auf der anderen Seite des Bildschirms.
@@ -229,3 +267,4 @@ The ShadowGuard Way erinnert uns, das nicht zu tun.
 | Revision | Datum | Änderung |
 |----------|-------|----------|
 | Founding Edition 1.0 | 2026-07-30 | Erste offizielle Fassung — Tempo, Entscheiden, KI, Qualität, Code, Dokumentation |
+| Founding Edition 1.1 | 2026-07-30 | Monat später > Tag früher; Kritik; Meinung ändern; Fakten; Foundation-Manuscript-Bezeichnung |

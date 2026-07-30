@@ -5,7 +5,7 @@
 | **Document ID** | SGF-006 |
 | **Title** | ShadowGuard Manifesto |
 | **Edition** | Founding Edition |
-| **Version** | 1.1 |
+| **Version** | 1.2 |
 | **Language** | German (DE) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -56,7 +56,7 @@ Sie ist das Versprechen, **nie aufzuhören, Software zu schaffen, der Menschen v
 
 ---
 
-*Der eine Satz, der das Projekt steuert:*  
+*Leitprinzip:*  
 **Vertrauen nie der Geschwindigkeit opfern.**
 
 ---
@@ -72,3 +72,4 @@ Wenn sie eines Tages Tausenden hilft, darf sie nie vergessen, **wo ihr Anfang wa
 |----------|-------|----------|
 | Founding Edition 1.0 | 2026-07-30 | Erste offizielle einseitige Fassung |
 | Founding Edition 1.1 | 2026-07-30 | Recht auf Sicherheit zuerst; Respekt vs Vertrauen; Unterschrift über einen Menschen (ChatGPT-Review + Decision Protocol) |
+| Founding Edition 1.2 | 2026-07-30 | Typografie: „Leitprinzip“ statt „ein Satz“ |

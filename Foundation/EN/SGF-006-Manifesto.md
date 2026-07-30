@@ -5,7 +5,7 @@
 | **Document ID** | SGF-006 |
 | **Title** | ShadowGuard Manifesto |
 | **Edition** | Founding Edition |
-| **Version** | 1.1 |
+| **Version** | 1.2 |
 | **Language** | English (EN) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -56,7 +56,7 @@ It is a commitment to **never stop building software people can trust**.
 
 ---
 
-*The one sentence that steers the project:*  
+*Guiding Principle:*  
 **Never sacrifice trust for speed.**
 
 ---
@@ -72,3 +72,4 @@ If it one day helps thousands, it must never forget **where it began**.
 |----------|------|--------|
 | Founding Edition 1.0 | 2026-07-30 | First official one-page wording |
 | Founding Edition 1.1 | 2026-07-30 | Right to feel safe first; respect vs trust; signature about one person (ChatGPT review + Decision Protocol) |
+| Founding Edition 1.2 | 2026-07-30 | Typography: “Guiding Principle” instead of “one sentence” |

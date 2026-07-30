@@ -32,20 +32,23 @@ Fáze vyjadřují **cestu**:
 
 ## Foundations — co zbývá před Founding Edition release
 
-- [x] Constitution, Way, Founding Statement  
-- [x] Manifesto, Decision Protocol, Foundation Index  
+- [x] Constitution, Way (v1.1), Founding Statement  
+- [x] Manifesto (v1.2), Decision Protocol, Foundation Index  
 - [x] Book of Decisions, Chronicle (živě)  
+- [ ] **Trust Principles (SGF-008)** — další nový manuskript  
+- [ ] **Design Principles (SGF-007)**  
+- [ ] Brand Identity (SGF-011) — až bude připraveno  
 - [ ] Interní revize všech Foundation textů (Golden Rule)  
 - [ ] Konzistence terminologie CZ/EN/DE  
-- [ ] Brand Identity (SGF-011) — až bude připraveno  
-- [ ] Filozofické doladění root README (průběžně)  
+- [ ] Jednotná „titulní“ podoba Foundation Manuscript (později typografie/PDF)  
 - [ ] **Teprve pak** GitHub Release **Founding Edition v1.0**  
 
-Release **ještě ne**. Release = slib oficiální filozofie.
+Release **ještě ne**. Release = slib oficiální filozofie.  
+**Architecture (Direction) až po Trust + Design Principles** — ať architektura čte hotovou filozofii.
 
 ---
 
-## Direction (náhled)
+## Direction (náhled — až po Trust/Design)
 
 - SGW-003 Architecture Truth (Shadvert vs Python engine)  
 - Inventura UI (Core / Nice / schovat v defaultu)  

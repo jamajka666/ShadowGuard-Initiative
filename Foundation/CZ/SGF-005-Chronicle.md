@@ -131,6 +131,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Manifesto v1.2 + Way v1.1; Architecture odložena
+
+- **Co:** ChatGPT potvrdil Manifesto 1.1 (vlastní hlas). Provedeno: typografie **Řídící princip** (v1.2). Way **v1.1** — doplněny kritika, změna názoru, ověřování faktů, „měsíc později“, označení Foundation Manuscript. Architecture **ne teď**. Další nový dokument: **Trust Principles**. Přečíslování SGF opět odmítnuto (D-016).
+- **Proč:** Foundation má odpovědět „kdo jsme / jak pracujeme“ dřív než „jak to postavíme“. Way už byl hotový — posílili jsme ho, nepřepisovali od nuly.
+- **Další krok:** SGF-008 Trust Principles (po tvé kontrole Way v1.1).
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

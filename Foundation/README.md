@@ -2,6 +2,9 @@
 
 Foundation odpovídá na otázku: **Proč existujeme a podle čeho se rozhodujeme?**
 
+Každý oficiální text zde je **ShadowGuard Foundation Manuscript** — kapitola jedné knihy identity, ne izolované README.  
+Stejná rodina: metadata, motto, Revision Chronicle, Official Language Editions, klidný tón.
+
 Tyto manuskripty se mění pomalu. Po uzavření *Founding Edition* se nepřepisují „od nuly“ — jen se přidávají **revize** se zápisem v Revision Chronicle.
 
 **Obsah knihovny:** [Foundation Index (SGF-010)](CZ/SGF-010-Foundation-Index.md)
@@ -32,7 +35,7 @@ Viz [Decision Protocol](CZ/SGF-009-Decision-Protocol.md).
 | ID | Název | Stav |
 |----|--------|------|
 | SGF-001 | Constitution | **v1.0** CZ/EN/DE |
-| SGF-002 | The ShadowGuard Way | **v1.0** CZ/EN/DE |
+| SGF-002 | The ShadowGuard Way | **v1.1** CZ/EN/DE |
 | SGF-003 | Founding Statement | **v1.0** CZ/EN/DE |
 | SGF-004 | Book of Decisions | aktivní |
 | SGF-005 | Chronicle | aktivní |
