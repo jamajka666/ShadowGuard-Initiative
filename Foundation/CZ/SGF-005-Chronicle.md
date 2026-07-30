@@ -171,6 +171,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — SSRF deploy OK + další P1/P2 v kódu
+
+- **Co:** Zakladatel potvrdil SSRF na Lenovo. Doplněno: cache `/api/scam-alerts`, production CSP+HSTS (Helmet), limity image/text, GitHub CI, `npm test` (SSRF). P1-3/P1-4 odloženy (per-device tokeny, HttpOnly admin).
+- **Proč:** Pokračovat v druhé noze důvěry bez feature creepu.
+- **Další krok:** redeploy Lenovo (pull/build/restart); potom Design Principles nebo pauza.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

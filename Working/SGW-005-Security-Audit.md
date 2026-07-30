@@ -129,7 +129,7 @@ Podmínka selže (a pustí request dál), když klient **nepošle** `familyCode`
 #### P1-2 Veřejné `/api/check-domain-ssl` a `/api/scam-alerts`
 Stejný abuse vektor jako analyze (méně Gemini, ale síť/CPU; scam-alerts volá Gemini).
 
-**Náprava:** stejný rate-limit bucket; scam-alerts cacheovat (TTL).
+**Náprava:** rate-limit (P0) + **in-memory cache** scam-alerts (default TTL 30 min, env `SCAM_ALERTS_CACHE_TTL_MS`, hlavička `X-Cache`). **Hotovo v kódu.**
 
 ---
 
@@ -151,16 +151,16 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 
 ### P2 — Střední
 
-| ID | Nález | Poznámka |
-|----|--------|----------|
-| P2-1 | `express.json` 10 MB | Snížit default; image zvlášť limitovat |
-| P2-2 | `rejectUnauthorized: false` u TLS inspect | Pro audit certu záměrné, ale dokumentovat; nepoužívat pro „důvěřuj tomuto spoji“ |
-| P2-3 | Historie kontrol v `localStorage` | Citlivé URL/texty na zařízení — OK pro rodinu, varovat v Trust/UI |
-| P2-4 | Telefon syna v `localStorage` | `strazce_son_phone` — lokální, ale citlivé |
-| P2-5 | Žádné CI (`npm audit` v Actions) | Zavést s lint/build |
-| P2-6 | Žádné automatické testy security path | Minimálně test na heartbeat 403 |
-| P2-7 | `x-powered-by: Express` | Fingerprinting |
-| P2-8 | Timing-safe compare tokenů | `!==` na admin token — low risk u silného tokenu; ideálně `crypto.timingSafeEqual` |
+| ID | Nález | Stav |
+|----|--------|------|
+| P2-1 | Velký JSON body / image | **2mb** default + max image base64 + max text length |
+| P2-2 | `rejectUnauthorized: false` u TLS inspect | **Zdokumentováno v kódu** — jen audit certu, ne proxy |
+| P2-3 | Historie v `localStorage` | OK pro rodinu; zmíněno v Trust — UI warning později |
+| P2-4 | Telefon syna v `localStorage` | Beze změny (lokální); rotace při prodeji tabletu |
+| P2-5 | CI | **GitHub Actions** `.github/workflows/ci.yml` |
+| P2-6 | Automatické testy | **`npm test`** — SSRF unit tests |
+| P2-7 | `x-powered-by` | **Hotovo** (P0) |
+| P2-8 | Timing-safe tokeny | **Hotovo** (P0) |
 
 ---
 
@@ -228,8 +228,9 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | npm audit | **0 vulnerabilities** (po `npm install`) |
 
 **Hotovo:** deploy P0 na Lenovo (2026-07-30) — zakladatel potvrdil **Deploy OK**.  
-**Hotovo v kódu:** SSRF guard P1-1 (`src/utils/ssrfGuard.ts`) — čeká `git pull` + build na Lenovo.  
-**Ještě ne:** plná CSP, CI, doladění CSP pro SPA.
+**Hotovo v kódu + Lenovo (SSRF):** P0 + P1-1 deploy OK.  
+**Hotovo v kódu (další P1/P2):** cache scam-alerts, CSP+HSTS prod, limity image/text, CI, unit testy — **redeploy Lenovo**.  
+**Odloženo (vědomě):** P1-3 per-device tokeny, P1-4 HttpOnly admin cookie (větší změna UX).
 
 ---
 
@@ -251,3 +252,4 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | 1.1 | 2026-07-30 | Opravy P0 v kódu na Asus; čeká deploy na Lenovo |
 | 1.2 | 2026-07-30 | Deploy Lenovo potvrzen zakladatelem (Deploy OK) |
 | 1.3 | 2026-07-30 | P1-1 SSRF guard v kódu; čeká deploy Lenovo |
+| 1.4 | 2026-07-30 | P1-2 cache alerts; CSP+HSTS; CI; tests; limity image/text |
