@@ -42,7 +42,7 @@
 | SGF-004 | Book of Decisions | Active (living) | CZ |
 | SGF-005 | ShadowGuard Chronicle | Active (living) | CZ |
 | SGF-006 | ShadowGuard Manifesto | Founding Edition v1.2 | CZ / EN / DE |
-| SGF-007 | Design Principles | reserved — later | — |
+| SGF-007 | Design Principles | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-008 | Trust Principles | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-009 | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-010 | Foundation Index | Active (this document) | CZ / EN |

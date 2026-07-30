@@ -187,6 +187,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Feedback AI + SGF-007 Design Principles v1.0
+
+- **Co:** Doplněné `chatgpt.txt` / `grok.txt` / `gemini.txt`. Shoda: security OK, dál Design; Jednoduchý = default; FAMILY_CODE do bety; CF Access brzy. Zapsáno **SGF-007** (CZ/EN/DE), **SGW-006** DoD/Quality/Beta Rule, D-018.
+- **Proč:** Most filozofie → obrazovka; méně dokumentů, víc srozumitelného produktu.
+- **Další krok:** propsat režimy do Shadvert; CF Access `/admin`; test s tátou.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

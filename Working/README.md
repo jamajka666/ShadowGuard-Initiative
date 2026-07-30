@@ -27,9 +27,10 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 ## Aktuální fokus
 
 1. ~~Foundation jádro + Manifesto + Decision Protocol + Trust~~ — v gitu.  
-2. **Security:** [SGW-005](SGW-005-Security-Audit.md) — P0+SSRF na Lenovo OK; **další P1/P2 v kódu** — redeploy Lenovo.  
-3. **Design Principles (SGF-007)** — další Foundation manuskript.  
-4. Architecture až po bezpečném základu (D-017).
+2. **Security:** [SGW-005](SGW-005-Security-Audit.md) — app + host Fáze A OK.  
+3. **Design Principles:** [SGF-007](../Foundation/CZ/SGF-007-Design-Principles.md) **v1.0** — další: propsat do UI.  
+4. **Definition of Done:** [SGW-006](SGW-006-Definition-of-Done.md).  
+5. Architecture / hlubší auth až po UX craft (D-018).
 
 Způsob práce: [SGF-002 Way](../Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [SGF-009 Decision Protocol](../Foundation/CZ/SGF-009-Decision-Protocol.md)  
 Roadmap: [SGW-002](SGW-002-Roadmap.md)  

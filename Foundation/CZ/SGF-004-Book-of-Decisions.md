@@ -265,6 +265,20 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-015 | Manifesto v1.1 (text); ID zůstává SGF-006 | accepted |
 | D-016 | Manifesto v1.2; Way v1.1; Architecture později | accepted |
 | D-017 | Paralelní noha: security + Foundation | accepted |
+| D-018 | Feedback AI: SGF-007 + pořadí UX | accepted |
+
+---
+
+### D-018 — Feedback ChatGPT/Grok/Gemini (status 30. 7.) → Design Principles
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Status pro ostatní AI; feedback ve `AI_komunikace/*.txt`. Security app+host v rozumném stavu. |
+| **Rozhodnutí** | (1) **SGF-007 Design Principles v1.0** oficiálně (CZ/EN/DE). (2) Default režim **Jednoduchý** pro všechny; přepínač = „Zobrazit více podrobností“, ne Expert. (3) FAMILY_CODE stačí do úzké bety; **Beta Rule ~20** → enrollment (SGW-006). (4) Pořadí: Design → **CF Access /admin brzy** (Grok: paralelně/hned) → UX craft → hlubší auth. (5) **SGW-006** Definition of Done + Quality bar + P0–P3 štítky. (6) Po SGF-007 pár dní méně Foundation, víc „cítí se táta jistěji?“. |
+| **Důvod** | Shoda všech tří poradců; design je most filozofie → obrazovka. |
+| **Důsledky** | Další práce: propsat režimy do Shadvert UI; CF Access checklist. |
 
 ---
 
@@ -304,6 +318,7 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | 1.0 | 2026-07-30 | D-015 — Manifesto v1.1; potvrzení stabilních ID |
 | 1.0 | 2026-07-30 | D-016 — Manifesto v1.2, Way v1.1, pořadí další práce |
 | 1.0 | 2026-07-30 | D-017 — paralelní security audit + opravy P0 |
+| 1.0 | 2026-07-30 | D-018 — SGF-007 Design Principles + DoD z feedbacku AI |
 
 ---
 

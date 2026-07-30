@@ -40,7 +40,7 @@ Viz [Decision Protocol](CZ/SGF-009-Decision-Protocol.md).
 | SGF-004 | Book of Decisions | aktivní |
 | SGF-005 | Chronicle | aktivní |
 | SGF-006 | Manifesto | **v1.2** CZ/EN/DE |
-| SGF-007 | Design Principles | rezervováno |
+| SGF-007 | Design Principles | **v1.0** CZ/EN/DE |
 | SGF-008 | Trust Principles | **v1.0** CZ/EN/DE |
 | SGF-009 | Decision Protocol | **v1.0** CZ/EN/DE |
 | SGF-010 | Foundation Index | aktivní |

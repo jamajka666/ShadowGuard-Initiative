@@ -69,7 +69,8 @@ Denní návyky: [SGF-002 The ShadowGuard Way](Foundation/CZ/SGF-002-ShadowGuard-
 | Foundation Library | aktivní — před Founding Edition release |
 | SGF-001…003, 006, 008, 009 | Founding Edition (vícejazyčné; Way/Manifesto revize) |
 | SGF-004, 005, 010 | aktivní / živé |
-| SGF-007, 011 | rezervováno (Design, Brand) |
+| SGF-007 Design Principles | Founding Edition v1.0 (CZ/EN/DE) |
+| SGF-011 Brand Identity | rezervováno |
 | Working Roadmap | draft SGW-002 |
 | **GitHub Founding Edition release** | **ještě ne** — po interní revizi |
 

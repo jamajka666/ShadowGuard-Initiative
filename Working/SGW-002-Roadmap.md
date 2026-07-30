@@ -36,7 +36,10 @@ Fáze vyjadřují **cestu**:
 - [x] Manifesto (v1.2), Decision Protocol, Foundation Index  
 - [x] Book of Decisions, Chronicle (živě)  
 - [x] **Trust Principles (SGF-008)** v1.0  
-- [ ] **Design Principles (SGF-007)** — další nový manuskript  
+- [x] **Design Principles (SGF-007)** v1.0  
+- [x] **SGW-006 Definition of Done**  
+- [ ] Propsat režimy UI do Shadvert (Jednoduchý default)  
+- [ ] CF Access na `/admin` (dashboard, ~15 min)  
 - [ ] Brand Identity (SGF-011) — až bude připraveno  
 - [ ] Interní revize všech Foundation textů (Golden Rule)  
 - [ ] Konzistence terminologie CZ/EN/DE  
