@@ -22,9 +22,9 @@ Pravidla:
 
 | ID | Název | Stav |
 |----|--------|------|
-| SGF-001 | ShadowGuard Constitution | připravuje se |
+| SGF-001 | ShadowGuard Constitution | **v1.0 Founding Edition** (CZ / EN / DE) |
 | SGF-002 | The ShadowGuard Way | připravuje se |
-| SGF-003 | Founding Statement | **v1.0 Founding Edition** |
+| SGF-003 | Founding Statement | **v1.0 Founding Edition** (CZ / EN / DE) |
 | SGF-004 | Book of Decisions | **aktivní (živý manuskript)** |
 | SGF-005 | ShadowGuard Chronicle | **aktivní (živý manuskript)** |
 | SGF-006 | Design Principles | odloženo — až budou UI rozhodnutí |
