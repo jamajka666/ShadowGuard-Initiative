@@ -38,6 +38,7 @@ Es ist eine Vereinbarung über Tempo, Qualität, Entscheidungen und Zusammenarbe
 | SGF-004 Book of Decisions | Dauerhafte Entscheidungen mit Begründung |
 | SGF-005 Chronicle | Was geschah und warum |
 | SGF-006 Manifesto | Eine Seite des Glaubens; Vertrauen vor Tempo |
+| SGF-008 Trust Principles | Konkrete Vertrauensverpflichtungen (Privatsphäre, Erklärung, Daten) |
 | SGF-009 Decision Protocol | Wie wichtige Entscheidungen entstehen (keine Abstimmung) |
 | Working Library (SGW-*) | Sprints, Architektur, Prompts, Backlog |
 

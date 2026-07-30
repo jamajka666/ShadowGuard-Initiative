@@ -38,6 +38,7 @@ It is an agreement on pace, quality, decisions, and collaboration — so the pro
 | SGF-004 Book of Decisions | Lasting decisions with reasons |
 | SGF-005 Chronicle | What happened and why |
 | SGF-006 Manifesto | One page of belief; trust over speed |
+| SGF-008 Trust Principles | Concrete trust commitments (privacy, explanation, data) |
 | SGF-009 Decision Protocol | How major decisions are made (not voting) |
 | Working Library (SGW-*) | Sprints, architecture, prompts, backlog |
 
