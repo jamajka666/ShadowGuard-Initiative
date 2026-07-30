@@ -36,6 +36,8 @@ Je to dohoda o tempu, kvalitě, rozhodování a spolupráci — aby projekt vydr
 | SGF-003 Founding Statement | Krátké srdce příběhu |
 | SGF-004 Book of Decisions | Trvalá rozhodnutí s odůvodněním |
 | SGF-005 Chronicle | Co se stalo a proč |
+| SGF-006 Manifesto | Jedna stránka víry; důvěra > rychlost |
+| SGF-009 Decision Protocol | Jak vznikají důležitá rozhodnutí (ne hlasování) |
 | Working Library (SGW-*) | Sprinty, architektura, prompty, backlog |
 
 Když se Way a denní realita rozcházejí, **upravíme práci nebo rozhodnutí** — ne tiše porušujeme pravidla.
@@ -92,17 +94,21 @@ Trpělivost nese růže. Unáhlený verdikt u seniora nese škody.
 
 ## VI. Rozhodování
 
+U **důležitých** rozhodnutí platí celý **[SGF-009 Decision Protocol](SGF-009-Decision-Protocol.md)**:
+
+Návrh → Analýza → Diskuse → Syntéza → **Rozhodnutí zakladatele** → Implementace → Validace.
+
+Stručně v denní praxi:
+
 1. Pojmenovat problém.  
-2. Vypsat **dostupné varianty** a jejich pro / proti.  
-3. Vybrat nejvhodnější — ne nutně nejdražší ani „nejchytřejší“.  
-4. Velká rozhodnutí zapsat do **Book of Decisions**.  
-5. Teprve pak velká akce.
+2. Vypsat **dostupné varianty** a jejich pro / proti (poradci přinášejí argumenty, ne hlasy).  
+3. Syntéza doporučení.  
+4. **Finální verdikt zakladatele** — AI radí, nerozhoduje.  
+5. Zápis do **Book of Decisions** / Chronicle.  
+6. Teprve pak velká akce (Grok Build implementuje a testuje; zakladatel schvaluje zápis).
 
 Malé volby (název proměnné, drobný refaktor) do knihy nepatří.  
-Směr na týdny a měsíce ano.
-
-Výsledek rozhodnutí smí jít nejdřív k **diskuzi** (včetně více pohledů AI).  
-Finální verdikt je **zakladatele** — AI radí, nerozhoduje.
+**Hlasování 2:1 se nepoužívá** — rozhodují argumenty a zakladatel.
 
 ---
 

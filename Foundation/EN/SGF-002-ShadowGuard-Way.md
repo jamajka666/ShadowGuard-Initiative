@@ -36,6 +36,8 @@ It is an agreement on pace, quality, decisions, and collaboration — so the pro
 | SGF-003 Founding Statement | Short heart of the story |
 | SGF-004 Book of Decisions | Lasting decisions with reasons |
 | SGF-005 Chronicle | What happened and why |
+| SGF-006 Manifesto | One page of belief; trust over speed |
+| SGF-009 Decision Protocol | How major decisions are made (not voting) |
 | Working Library (SGW-*) | Sprints, architecture, prompts, backlog |
 
 When the Way and daily reality drift apart, we **adjust the work or the decision** — we do not quietly break the rules.
@@ -92,17 +94,21 @@ Patience grows roses. A rushed verdict for a senior can grow harm.
 
 ## VI. Decision-making
 
+For **important** decisions, use the full **[SGF-009 Decision Protocol](../EN/SGF-009-Decision-Protocol.md)** (same folder in EN):
+
+Proposal → Analysis → Discussion → Synthesis → **Founder’s decision** → Implementation → Validation.
+
+In daily short form:
+
 1. Name the problem.  
-2. List **available options** with pros and cons.  
-3. Choose the most suitable — not necessarily the most expensive or “smartest”.  
-4. Record major decisions in the **Book of Decisions**.  
-5. Only then take major action.
+2. List **options** with pros and cons (advisors bring arguments, not votes).  
+3. Synthesize a recommendation.  
+4. **Founder decides** — AI advises; it does not decide.  
+5. Record in **Book of Decisions** / Chronicle.  
+6. Only then major action (Grok Build implements and tests; founder approves the record).
 
-Small choices (variable names, tiny refactors) do not belong in the book.  
-Direction for weeks and months does.
-
-Decision outcomes may first go to **discussion** (including multiple AI views).  
-The final call is the **founder’s** — AI advises; it does not decide.
+Small choices do not belong in the book.  
+**No 2:1 voting** — arguments and the founder decide.
 
 ---
 

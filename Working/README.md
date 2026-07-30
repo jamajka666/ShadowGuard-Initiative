@@ -26,9 +26,10 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 
 ## Aktuální fokus
 
-1. ~~Dokončit základní Foundation manuskripty (SGF-001…003)~~ — **hotovo** (Founding Edition v1.0).  
-2. Zapsat **Architecture Truth** a **Roadmap** (SGW-002, SGW-003).  
-3. Teprve pak stabilizace Shadvertu (bezpečnost → hybridní verdikt → senior UX → beta).
+1. ~~Foundation jádro + Manifesto + Decision Protocol + Index~~ — **v gitu**; před **Founding Edition** release ještě interní revize.  
+2. **Direction:** Architecture Truth (SGW-003) + doplnění Roadmap.  
+3. **Craft:** stabilizace Shadvertu (bezpečnost → hybrid → senior UX → beta).
 
-Způsob práce: Foundation SGF-002 *The ShadowGuard Way*.  
-Volitelně: GitHub Release `foundation-v1.0` po kontrole textů zakladatelem.
+Způsob práce: [SGF-002 Way](../Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [SGF-009 Decision Protocol](../Foundation/CZ/SGF-009-Decision-Protocol.md)  
+Roadmap: [SGW-002](SGW-002-Roadmap.md)  
+**Release Founding Edition: ještě ne** (D-013).

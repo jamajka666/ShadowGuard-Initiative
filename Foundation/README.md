@@ -4,6 +4,8 @@ Foundation odpovídá na otázku: **Proč existujeme a podle čeho se rozhodujem
 
 Tyto manuskripty se mění pomalu. Po uzavření *Founding Edition* se nepřepisují „od nuly“ — jen se přidávají **revize** se zápisem v Revision Chronicle.
 
+**Obsah knihovny:** [Foundation Index (SGF-010)](CZ/SGF-010-Foundation-Index.md)
+
 ## Official Language Editions
 
 | Kód | Role |
@@ -16,43 +18,44 @@ Pravidla:
 
 1. Stejné **číslo verze** napříč jazyky (ne CZ v1.2 + EN v1.0).  
 2. Překládá se **význam**, ne písmeno po písmenu.  
-3. Status dokumentu je součástí hlavičky každého manuskriptu.
+3. Status dokumentu je součástí hlavičky každého manuskriptu.  
+4. **Document ID se po vydání nemění** — pořadí čtení řeší Index.  
 
-## Katalog (Founding sada)
+## Golden Rule
+
+> Žádný Foundation Manuskript nebude vydán jako oficiální Founding / closed edition, dokud nejsme přesvědčeni, že vystihuje **podstatu** myšlenky — ne jen že „se všem líbí“.
+
+Viz [Decision Protocol](CZ/SGF-009-Decision-Protocol.md).
+
+## Katalog (zkráceně)
 
 | ID | Název | Stav |
 |----|--------|------|
-| SGF-001 | ShadowGuard Constitution | **v1.0 Founding Edition** (CZ / EN / DE) |
-| SGF-002 | The ShadowGuard Way | **v1.0 Founding Edition** (CZ / EN / DE) |
-| SGF-003 | Founding Statement | **v1.0 Founding Edition** (CZ / EN / DE) |
-| SGF-004 | Book of Decisions | **aktivní (živý manuskript)** |
-| SGF-005 | ShadowGuard Chronicle | **aktivní (živý manuskript)** |
-| SGF-006 | Design Principles | odloženo — až budou UI rozhodnutí |
-| SGF-007 | Trust Principles | odloženo — až po hybridní detekci |
-| SGF-008 | Brand Identity | odloženo — až po stabilizaci produktu |
+| SGF-001 | Constitution | **v1.0** CZ/EN/DE |
+| SGF-002 | The ShadowGuard Way | **v1.0** CZ/EN/DE |
+| SGF-003 | Founding Statement | **v1.0** CZ/EN/DE |
+| SGF-004 | Book of Decisions | aktivní |
+| SGF-005 | Chronicle | aktivní |
+| SGF-006 | Manifesto | **v1.0** CZ/EN/DE |
+| SGF-007 | Design Principles | rezervováno |
+| SGF-008 | Trust Principles | rezervováno |
+| SGF-009 | Decision Protocol | **v1.0** CZ/EN/DE |
+| SGF-010 | Foundation Index | aktivní |
+| SGF-011 | Brand Identity | rezervováno |
 
 ## Složky
 
 | Cesta | Účel |
 |-------|------|
 | `CZ/`, `EN/`, `DE/` | Texty Official Language Editions |
-| `Signed/` | Naskenovaný podepsaný originál (ceremonie — vedlejší, až bude text hotový) |
+| `Signed/` | Podepsané originály (ceremonie — vedlejší) |
 | `Time-Capsule/` | První artefakty; nic se nemaže, jen přidává |
-
-## Šablona hlavičky manuskriptu
-
-Každý Foundation soubor začíná metadaty:
-
-- Document ID, Title, Edition, Version  
-- Language, Status  
-- Created, Last Revision  
-- Initiative, Project  
-- Motto (jedna věta)  
-- Revision Chronicle (tabulka)
 
 ## Pracovní zásada
 
 > Kód píšeme rychle jen tehdy, když jsou myšlenky napsané pomalu.  
 > Myšlenky ale nesmí trvat věčnost — Founding Edition má být „dost dobrá a jasná“, ne dokonalá na deset let bez tečky.
+
+> **Nikdy neobětovat důvěru kvůli rychlosti.**
 
 Sloganové formulace z diskusí s AI bereme jako **návrhy k debatě**, ne jako dogmata.

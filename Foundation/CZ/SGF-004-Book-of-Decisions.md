@@ -9,7 +9,7 @@
 | **Language** | Czech (CZ) |
 | **Status** | Active |
 | **Created** | 2026-07-30 |
-| **Last Revision** | 2026-07-30 |
+| **Last Revision** | 2026-07-30 (D-010…D-014) |
 | **Initiative** | ShadowGuard Initiative |
 | **Project** | Shadvert / celá iniciativa |
 
@@ -178,6 +178,72 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 
 ---
 
+### D-010 — Stabilní Document ID; pořadí čtení řeší Index
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Návrh přeuspořádat katalog (Manifesto = SGF-002, Way = SGF-003, …). Way a další už v gitu pod stávajícími ID. |
+| **Varianty** | A) Přečíslovat vše · B) Stabilní ID + Foundation Index pro pořadí čtení |
+| **Rozhodnutí** | **B** — jednou vydané SGF-ID se nemění. Manifesto = **SGF-006**. Decision Protocol = **SGF-009**. Index = **SGF-010**. Brand Identity rezervováno jako **SGF-011**. |
+| **Důvod** | Stabilní odkazy, git historie, Time Capsule; přeuspořádání láme důvěru v dokumentaci. |
+| **Důsledky** | Čtenář jde přes Foundation Index, ne podle „hezké“ posloupnosti čísel. |
+
+---
+
+### D-011 — Oficiální poradci + Decision Protocol (ne hlasování)
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Tři AI nemají být jen neformální chat; mají mít role. Návrh „hlasování“ by mohl vést k 2:1. |
+| **Rozhodnutí** | Zavést **SGF-009 Decision Protocol**: Návrh → Analýza → Diskuse → Syntéza → Rozhodnutí zakladatele → Implementace → Validace. Role: ChatGPT strategický, Gemini produktový, Grok kritický; Grok Build = implementace; zakladatel vždy finále. **Žádné hlasování.** Námitky kdykoli vyslechnuty. |
+| **Důvod** | Architektura rozhodování je stabilnější než demokracie modelů. |
+| **Důsledky** | Velká rozhodnutí jdou protokolem; zápis do Book of Decisions / Chronicle. |
+
+---
+
+### D-012 — Názvy fází cesty (bez „Genesis“)
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Kódové jméno Genesis → asociace s filmem (Terminator Genisys), ne jen „vznik“. U brandu záleží na asociacích. |
+| **Rozhodnutí** | Fáze: **Foundations → Direction → Craft → Trust → Launch → Growth**. Bez vojenského a prázdného startup tónu. CZ významy v Roadmap / Index. Později možné čistě české názvy, pokud sedí filozofii líp. |
+| **Důvod** | Cesta > slogan. |
+| **Důsledky** | SGW-002 Roadmap používá tyto názvy. |
+
+---
+
+### D-013 — Founding Edition release ještě ne
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Foundation už působí jako iniciativa; otázka okamžitého GitHub Release. |
+| **Rozhodnutí** | **Počkat.** Nejdřív interní revize, konzistence jazyků, Brand Identity až bude ready, klidná kontrola Golden Rule. Release pojmenovat **Founding Edition v1.0** (ne jen „Foundation“). |
+| **Důvod** | Release je slib oficiální filozofie. O pár kroků dřív než teď. |
+| **Důsledky** | Práce na manuskriptech a Working pokračuje; tag/release až po revizi. |
+
+---
+
+### D-014 — Manifesto + PRINCIPLES.md + soukromý Founder Journal
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Potřeba jedné stránky „víry“ a krátkých pravidel pro nového čtenáře; deník „proč“ nemá být veřejný. |
+| **Rozhodnutí** | **SGF-006 Manifesto** (CZ/EN/DE). Kořenový **PRINCIPLES.md** (10 pravidel). **Founder Journal** jen lokálně mimo veřejný git (`~/ShadowGuard Initiative/private/`). |
+| **Důvod** | Veřejná filozofie vs. soukromá paměť zakladatele. |
+| **Důsledky** | Journal se necommituje do ShadowGuard-Initiative. |
+
+---
+
 ## Index
 
 | ID | Název | Status |
@@ -191,6 +257,11 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-007 | Security first | accepted |
 | D-008 | Prompty kolektivně + hybrid | accepted |
 | D-009 | Ceremonie vedlejší; slogany k debatě | accepted |
+| D-010 | Stabilní Document ID + Index | accepted |
+| D-011 | Decision Protocol (ne hlasování) | accepted |
+| D-012 | Fáze cesty (bez Genesis) | accepted |
+| D-013 | Founding Edition release ještě ne | accepted |
+| D-014 | Manifesto, PRINCIPLES, Founder Journal | accepted |
 
 ---
 
@@ -199,3 +270,4 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | Revize | Datum | Změna |
 |--------|-------|--------|
 | 1.0 | 2026-07-30 | Založení knihy; rozhodnutí D-001 až D-009 z plánu a review zakladatele |
+| 1.0 | 2026-07-30 | D-010 až D-014 — dodatky ChatGPT + shoda (Manifesto, Protocol, fáze, release wait) |

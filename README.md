@@ -6,6 +6,10 @@
 **Founding date:** 29 July 2026  
 **First project:** [Shadvert](https://shadowguard-shadvert.site/) — kontrola inzerátů, odkazů a podezřelých nabídek pro běžné lidi a rodiny.
 
+**Řídící věta:** *Nikdy neobětovat důvěru kvůli rychlosti.*
+
+---
+
 ## Proč to existuje
 
 Velké bezpečnostní nástroje často mluví technicky a předpokládají, že uživatel „to nějak pochopí“.  
@@ -15,15 +19,20 @@ Zakládací myšlenka:
 
 > „Chtěl bych, aby můj táta mohl bezpečně používat internet.“
 
+Rychlý vhled (2 minuty): [`PRINCIPLES.md`](PRINCIPLES.md)  
+Jedna stránka víry: [Manifesto](Foundation/CZ/SGF-006-Manifesto.md)
+
 ## Jak je tato knihovna uspořádaná
 
 | Část | Otázka | Obsah |
 |------|--------|--------|
-| [`Foundation/`](Foundation/) | **Proč?** | Stabilní principy, hodnoty, rozhodnutí, kronika |
-| [`Working/`](Working/) | **Jak?** | Roadmapa, architektura, sprinty, technická pravda |
-| [`Releases/`](Releases/) | **Co vyšlo?** | Záznamy oficiálních vydání (např. Foundation) |
+| [`Foundation/`](Foundation/) | **Proč?** | Principy, manifesto, rozhodnutí, kronika, protokol |
+| [`Working/`](Working/) | **Jak?** | Roadmapa, architektura, sprinty |
+| [`Releases/`](Releases/) | **Co vyšlo?** | Oficiální milníky (**Founding Edition** — připravuje se) |
 
-Foundation dokumenty mají Official Language Editions: **CZ** (vznik myšlenek), **EN** (mezinárodní), **DE** (prostředí zakladatele).
+Obsah Foundation: [Foundation Index](Foundation/CZ/SGF-010-Foundation-Index.md)
+
+Foundation dokumenty mají Official Language Editions: **CZ** · **EN** · **DE**.
 
 ## Čtyři pilíře
 
@@ -32,8 +41,15 @@ Foundation dokumenty mají Official Language Editions: **CZ** (vznik myšlenek),
 3. **Bezpečnost** — bez ní nevznikne důvěra  
 4. **Důvěra** — vysvětlitelná doporučení, žádné magické černé skříňky
 
-**Pracovní otázka u každé změny:**  
-*Pomůže to někomu cítit se na internetu bezpečněji?*
+**Pracovní otázka:** *Pomůže to někomu cítit se na internetu bezpečněji?*
+
+## Rozhodování
+
+Tři oficiální **poradci** (ChatGPT · Gemini · Grok) přinášejí argumenty.  
+**Zakladatel rozhoduje.** Implementace (Grok Build) realizuje a testuje.  
+
+Protokol: [SGF-009 Decision Protocol](Foundation/CZ/SGF-009-Decision-Protocol.md)  
+Denní návyky: [SGF-002 The ShadowGuard Way](Foundation/CZ/SGF-002-ShadowGuard-Way.md)
 
 ## Kde je software
 
@@ -41,7 +57,7 @@ Foundation dokumenty mají Official Language Editions: **CZ** (vznik myšlenek),
 |-----|-----|
 | Veřejná app (Shadvert) | https://shadowguard-shadvert.site/ |
 | Produktový kód (private) | https://github.com/jamajka666/ShadowGuard-Shadvert |
-| Tato identita a dokumentace | tento repozitář |
+| Identita a dokumentace | tento repozitář |
 
 > **Shadvert** je jméno produktu, které vidí lidé.  
 > **ShadowGuard Initiative** je zastřešující závazek v pozadí.
@@ -50,21 +66,27 @@ Foundation dokumenty mají Official Language Editions: **CZ** (vznik myšlenek),
 
 | Položka | Stav |
 |---------|------|
-| Foundation Library (struktura) | aktivní — buduje se |
-| SGF-001 Constitution | Founding Edition v1.0 (CZ / EN / DE) |
-| SGF-003 Founding Statement | Founding Edition v1.0 (CZ / EN / DE) |
-| SGF-004 Book of Decisions | aktivní |
-| SGF-005 Chronicle | aktivní |
-| SGF-002 The ShadowGuard Way | Founding Edition v1.0 (CZ / EN / DE) |
-| Stabilizace Shadvert 1.0 | další: Working Library → security / hybrid |
+| Foundation Library | aktivní — před Founding Edition release |
+| SGF-001…003, 006, 009 | Founding Edition v1.0 (vícejazyčné) |
+| SGF-004, 005, 010 | aktivní / živé |
+| SGF-007, 008, 011 | rezervováno (Design, Trust, Brand) |
+| Working Roadmap | draft SGW-002 |
+| **GitHub Founding Edition release** | **ještě ne** — po interní revizi |
 
-## Práce na projektu
+## Fáze cesty
 
-- Tempo: klidné, kvalitní (orientačně 8–12 h/týden)  
-- Myšlenky nejdřív, kód až po zapsaném rozhodnutí tam, kde to dává smysl  
-- Nové nápady do backlogu — ne do rozběhnutého sprintu  
+**Foundations** → Direction → Craft → Trust → Launch → Growth  
 
-Detailní způsob práce: *The ShadowGuard Way* (SGF-002, připravuje se).
+(Teď: dokončování Foundations; release až po revizi.)
+
+## Spolupráce a principy
+
+ShadowGuard Initiative **is open to contributions, but not at the expense of its principles.**
+
+Česky: *ShadowGuard Initiative je otevřená spolupráci, nikdy však ne za cenu opuštění svých principů.*
+
+Tempo: klidné, kvalitní (orientačně 8–12 h/týden).  
+Myšlenky nejdřív; kód až když je směr jasný tam, kde to dává smysl.
 
 ## Licence a disclaimer
 

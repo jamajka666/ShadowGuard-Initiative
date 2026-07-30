@@ -36,6 +36,8 @@ Es ist eine Vereinbarung über Tempo, Qualität, Entscheidungen und Zusammenarbe
 | SGF-003 Founding Statement | Kurzes Herz der Geschichte |
 | SGF-004 Book of Decisions | Dauerhafte Entscheidungen mit Begründung |
 | SGF-005 Chronicle | Was geschah und warum |
+| SGF-006 Manifesto | Eine Seite des Glaubens; Vertrauen vor Tempo |
+| SGF-009 Decision Protocol | Wie wichtige Entscheidungen entstehen (keine Abstimmung) |
 | Working Library (SGW-*) | Sprints, Architektur, Prompts, Backlog |
 
 Wenn Way und Alltag auseinanderlaufen, **passen wir die Arbeit oder die Entscheidung an** — wir brechen Regeln nicht stillschweigend.
@@ -92,17 +94,21 @@ Geduld trägt Rosen. Ein überstürztes Urteil für einen Senior kann Schaden tr
 
 ## VI. Entscheiden
 
+Bei **wichtigen** Entscheidungen gilt das volle **[SGF-009 Decision Protocol](SGF-009-Decision-Protocol.md)**:
+
+Vorschlag → Analyse → Diskussion → Synthese → **Entscheidung des Gründers** → Umsetzung → Validierung.
+
+Kurz im Alltag:
+
 1. Problem benennen.  
-2. **Verfügbare Varianten** mit Pro und Contra auflisten.  
-3. Die geeignetste wählen — nicht zwingend die teuerste oder „schlaueste“.  
-4. Große Entscheidungen ins **Book of Decisions** schreiben.  
-5. Erst dann große Aktion.
+2. **Varianten** mit Pro/Contra (Berater bringen Argumente, keine Stimmen).  
+3. Empfehlung synthetisieren.  
+4. **Gründer entscheidet** — KI berät, entscheidet nicht.  
+5. Eintrag ins **Book of Decisions** / Chronicle.  
+6. Erst dann große Aktion (Grok Build setzt um und testet; Gründer gibt die Niederschrift frei).
 
-Kleine Wahlen (Variablennamen, winzige Refactors) gehören nicht ins Buch.  
-Richtung für Wochen und Monate schon.
-
-Ergebnisse von Entscheidungen dürfen zuerst in die **Diskussion** (einschließlich mehrerer KI-Sichten).  
-Die endgültige Entscheidung liegt beim **Gründer** — KI berät, sie entscheidet nicht.
+Kleine Wahlen gehören nicht ins Buch.  
+**Keine Abstimmung 2:1** — Argumente und der Gründer entscheiden.
 
 ---
 

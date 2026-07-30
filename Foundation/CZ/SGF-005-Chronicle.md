@@ -103,7 +103,23 @@ Formát zápisu:
 
 - **Co:** SGF-002 ve CZ / EN / DE — tempo 8–12 h, sezení s jedním cílem, rozhodování s variantami, práce s AI (kolektivní pohled, finále u zakladatele), kvalita a testy včetně nepravděpodobných scénářů, security first, Lenovo/Asus, checklist před „hotovo“.
 - **Proč:** Constitution říká proč; Way říká jak denně, aby se plán dal dodržet bez zbytečného stresu.
-- **Další krok:** Working Library (Roadmap + Architecture Truth), volitelně release `foundation-v1.0`.
+- **Další krok:** (tehdy) Working / další Foundation kusy.
+
+---
+
+### 2026-07-30 — Manifesto, Decision Protocol, Index, PRINCIPLES (ChatGPT dodatky)
+
+- **Co:**
+  - **SGF-006 Manifesto** (CZ/EN/DE) — jedna stránka; řídící věta *Nikdy neobětovat důvěru kvůli rychlosti.*
+  - **SGF-009 Decision Protocol** — 7 kroků; role poradců; **ne hlasování**; Golden Rule pro Foundation.
+  - **SGF-010 Foundation Index** — katalog + pořadí čtení + fáze cesty.
+  - Kořenový **PRINCIPLES.md** (10 pravidel).
+  - **SGW-002 Roadmap** draft (Foundations → … → Growth).
+  - Soukromý **Founder Journal** mimo veřejný git.
+  - Rozhodnutí D-010…D-014.
+- **Proč:** Oficiálně začlenit poradce do procesu; chránit filozofii; release ještě není slib, který bychom teď dávali.
+- **Odmítnuto:** přeuspořádání SGF čísel; název fáze Genesis; okamžitý GitHub Release.
+- **Další krok:** interní revize Foundation (Golden Rule); Direction (Architecture Truth); **Founding Edition release až po revizi**.
 
 ---
 
@@ -121,3 +137,5 @@ Formát zápisu:
 |--------|-------|--------|
 | 1.0 | 2026-07-30 | Založení kroniky; zápisy od founding týdne |
 | 1.0 | 2026-07-30 | Záznam: Constitution v1.0 (CZ/EN/DE) |
+| 1.0 | 2026-07-30 | Záznam: The ShadowGuard Way v1.0 (CZ/EN/DE) |
+| 1.0 | 2026-07-30 | Manifesto, Decision Protocol, Index, PRINCIPLES, D-010…014 |
