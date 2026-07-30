@@ -147,6 +147,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Security audit (SGW-005) + opravy P0
+
+- **Co:** Grok chat tlačil paralelní security. Privátní repo Shadvert **existuje** (korekce 404 mýtu). Audit live + kód: kritický bypass heartbeat bez FAMILY_CODE (ověřen na live), chybějící Helmet/rate-limit, veřejné heavy API. Opravy v kódu na Asus: heartbeat, helmet, rate-limit, 2mb body, timing-safe tokeny. npm audit 0 vulns. **Deploy na Lenovo ještě ne.**
+- **Proč:** Druhá noha důvěry — fungující bezpečný produkt.
+- **Další krok:** deploy P0 na Lenovo po tvé kontrole; SSRF guard; Design Principles paralelne.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

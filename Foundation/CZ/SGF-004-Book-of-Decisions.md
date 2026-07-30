@@ -264,6 +264,7 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-014 | Manifesto, PRINCIPLES, Founder Journal | accepted |
 | D-015 | Manifesto v1.1 (text); ID zůstává SGF-006 | accepted |
 | D-016 | Manifesto v1.2; Way v1.1; Architecture později | accepted |
+| D-017 | Paralelní noha: security + Foundation | accepted |
 
 ---
 
@@ -302,3 +303,17 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | 1.0 | 2026-07-30 | D-010 až D-014 — dodatky ChatGPT + shoda (Manifesto, Protocol, fáze, release wait) |
 | 1.0 | 2026-07-30 | D-015 — Manifesto v1.1; potvrzení stabilních ID |
 | 1.0 | 2026-07-30 | D-016 — Manifesto v1.2, Way v1.1, pořadí další práce |
+| 1.0 | 2026-07-30 | D-017 — paralelní security audit + opravy P0 |
+
+---
+
+### D-017 — Paralelní běh: Foundation + bezpečnost produktu
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Grok chat: riziko přehnané dokumentace; live app už běží; druhá noha = bezpečný produkt. Mylně tvrdil, že privátní repo neexistuje. |
+| **Rozhodnutí** | **Přijmout paralelní běh.** Foundation pokračuje (Design Principles atd.), ale **priorita P0 security** na Shadvert. Repo `ShadowGuard-Shadvert` **existuje** (private). Audit = SGW-005. Opravy P0 v kódu na Asus; deploy na Lenovo až po kontrole zakladatele. |
+| **Důvod** | Důvěra = principy + reálně bezpečná app. |
+| **Důsledky** | Security findings v Working; Design Principles až po/vedle P0, ne místo nich. |

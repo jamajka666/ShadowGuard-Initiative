@@ -26,9 +26,10 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 
 ## Aktuální fokus
 
-1. ~~Foundation jádro + Manifesto + Decision Protocol + Index~~ — **v gitu**; před **Founding Edition** release ještě interní revize.  
-2. **Direction:** Architecture Truth (SGW-003) + doplnění Roadmap.  
-3. **Craft:** stabilizace Shadvertu (bezpečnost → hybrid → senior UX → beta).
+1. ~~Foundation jádro + Manifesto + Decision Protocol + Trust~~ — v gitu.  
+2. **Security (P0):** [SGW-005 Security Audit](SGW-005-Security-Audit.md) — opravy v kódu Shadvert na Asus; **deploy Lenovo po kontrole**.  
+3. Design Principles (SGF-007) paralelne / hned po P0 deploy.  
+4. Architecture až po bezpečném základu (D-017).
 
 Způsob práce: [SGF-002 Way](../Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [SGF-009 Decision Protocol](../Foundation/CZ/SGF-009-Decision-Protocol.md)  
 Roadmap: [SGW-002](SGW-002-Roadmap.md)  
