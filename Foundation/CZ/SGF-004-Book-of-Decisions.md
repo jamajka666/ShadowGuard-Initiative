@@ -9,7 +9,7 @@
 | **Language** | Czech (CZ) |
 | **Status** | Active |
 | **Created** | 2026-07-30 |
-| **Last Revision** | 2026-07-30 (D-010…D-014) |
+| **Last Revision** | 2026-07-30 (D-019 First Creation) |
 | **Initiative** | ShadowGuard Initiative |
 | **Project** | Shadvert / celá iniciativa |
 
@@ -266,6 +266,21 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-016 | Manifesto v1.2; Way v1.1; Architecture později | accepted |
 | D-017 | Paralelní noha: security + Foundation | accepted |
 | D-018 | Feedback AI: SGF-007 + pořadí UX | accepted |
+| D-019 | First Creation freeze + lab + křižovatka větví | accepted |
+
+---
+
+### D-019 — First Creation (live) + Design Lab + křižovatka větví
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Live Shadvert je hotová ukázka i „kapesní propagační balíček“. Zakladatel chce přesné pojmenování, zamezit tichému přepisování, a zároveň prostor pro experimenty. Gemini archiv ve `AI_komunikace/gemini.txt`. |
+| **Varianty** | A) Dál přepisovat live bez jména · B) Zamknout live pod jménem **First Creation**, lab jen dole, větší práce na větvích · C) Hned nahradit live Calm Security redesignem |
+| **Rozhodnutí** | **B** — (1) Live = interní jméno **First Creation**. (2) Default vzhled a hlavní tok pro tátu **zamčené** (security hotfix + drobné bugfixy OK; redesign ne). (3) Na First Creation **lab dole**: vzorkovnice 10–15 barev + dotazník 5–10 otázek (localStorage / export JSON, neaplikuje se automaticky). (4) Git křižovatka: `main` = First Creation; `ui/design-v2` = Calm Security experimenty; `feature/*` = funkce. (5) Až přijde čas, nová generace nahradí live; First Creation jde na **cestnou výstavku** (archiv/demo). (6) Není to primární marketing Shadvertu, ale **inspirace a základní kámen** — někoho chytne vzhled, jiného jednoduchost, jiného co umí. |
+| **Důvod** | Pořádek v komunikaci s AI i lidmi; ochrana tátovy důvěry; propagační hodnota stávající app; volnost vývoje bez risku živé cesty. |
+| **Důsledky** | `docs/VERSIONS.md` v privátním Shadvert gitu; zápis v `AI_komunikace/grok-build-mezi-nami/`; tag `first-creation` po lab úpravách; větší UI jen na větvích. |
 
 ---
 
