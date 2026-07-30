@@ -262,6 +262,21 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-012 | Fáze cesty (bez Genesis) | accepted |
 | D-013 | Founding Edition release ještě ne | accepted |
 | D-014 | Manifesto, PRINCIPLES, Founder Journal | accepted |
+| D-015 | Manifesto v1.1 (text); ID zůstává SGF-006 | accepted |
+
+---
+
+### D-015 — Manifesto v1.1 (obsah ano, přečíslování ne)
+
+| | |
+|--|--|
+| **Datum** | 2026-07-30 |
+| **Status** | accepted |
+| **Kontext** | Review ChatGPT: Manifesto vyhovuje; návrhy na silnější úvod, větu o respektu/důvěře, podpis o začátku u jednoho člověka; znovu návrh posunout ID na SGF-002. |
+| **Varianty** | A) Beze změny · B) Textové úpravy + držet SGF-006 · C) Text + přečíslovat celou knihovnu |
+| **Rozhodnutí** | **B** — přijmout textové posílení (v1.1 ve CZ/EN/DE). **Nepřečíslovávat** (potvrzení D-010). Důležitost Manifestu vyjadřuje **pořadí čtení v Foundation Index** (hned po Founding Statement / vedle Constitution), ne číslo souboru. |
+| **Důvod** | Text je podstata; stabilní ID chrání odkazy a historii. „Kapitoly jedné knihy“ = Index + tón, ne nutně 001–010 v ideálním pořadí. |
+| **Důsledky** | Manifesto v1.1; katalog beze změny ID. |
 
 ---
 
@@ -271,3 +286,4 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 |--------|-------|--------|
 | 1.0 | 2026-07-30 | Založení knihy; rozhodnutí D-001 až D-009 z plánu a review zakladatele |
 | 1.0 | 2026-07-30 | D-010 až D-014 — dodatky ChatGPT + shoda (Manifesto, Protocol, fáze, release wait) |
+| 1.0 | 2026-07-30 | D-015 — Manifesto v1.1; potvrzení stabilních ID |

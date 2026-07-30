@@ -41,7 +41,7 @@
 | [SGF-003](SGF-003-Founding-Statement.md) | Founding Statement | Founding Edition v1.0 | CZ / EN / DE |
 | [SGF-004](SGF-004-Book-of-Decisions.md) | Book of Decisions | Active (živý) | CZ |
 | [SGF-005](SGF-005-Chronicle.md) | ShadowGuard Chronicle | Active (živý) | CZ |
-| [SGF-006](SGF-006-Manifesto.md) | ShadowGuard Manifesto | Founding Edition v1.0 | CZ / EN / DE |
+| [SGF-006](SGF-006-Manifesto.md) | ShadowGuard Manifesto | Founding Edition **v1.1** | CZ / EN / DE |
 | SGF-007 | Design Principles | rezervováno — později | — |
 | SGF-008 | Trust Principles | rezervováno — později | — |
 | [SGF-009](SGF-009-Decision-Protocol.md) | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |

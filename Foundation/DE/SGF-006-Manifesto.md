@@ -5,7 +5,7 @@
 | **Document ID** | SGF-006 |
 | **Title** | ShadowGuard Manifesto |
 | **Edition** | Founding Edition |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Language** | German (DE) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -21,9 +21,13 @@
 
 ## Wir glauben, dass…
 
+…**jeder Mensch das Recht hat, sich im Internet sicher zu fühlen.**
+
 …**Sicherheit nicht kompliziert sein muss.**
 
 …Technik den Menschen **dienen** soll, sie nicht erschrecken.
+
+…**Technik sich Respekt durch Können verdient, Vertrauen aber durch ihr Verhalten.**
 
 …Vertrauen **nicht mit Werbung gekauft** werden kann.  
 Es muss durch ehrliche Arbeit verdient werden.
@@ -57,8 +61,14 @@ Sie ist das Versprechen, **nie aufzuhören, Software zu schaffen, der Menschen v
 
 ---
 
+Die ShadowGuard Initiative entstand aus dem Wunsch, **einem Menschen** zu helfen.  
+Wenn sie eines Tages Tausenden hilft, darf sie nie vergessen, **wo ihr Anfang war**.
+
+---
+
 ## Revision Chronicle
 
 | Revision | Datum | Änderung |
 |----------|-------|----------|
 | Founding Edition 1.0 | 2026-07-30 | Erste offizielle einseitige Fassung |
+| Founding Edition 1.1 | 2026-07-30 | Recht auf Sicherheit zuerst; Respekt vs Vertrauen; Unterschrift über einen Menschen (ChatGPT-Review + Decision Protocol) |

@@ -36,7 +36,7 @@ Viz [Decision Protocol](CZ/SGF-009-Decision-Protocol.md).
 | SGF-003 | Founding Statement | **v1.0** CZ/EN/DE |
 | SGF-004 | Book of Decisions | aktivní |
 | SGF-005 | Chronicle | aktivní |
-| SGF-006 | Manifesto | **v1.0** CZ/EN/DE |
+| SGF-006 | Manifesto | **v1.1** CZ/EN/DE |
 | SGF-007 | Design Principles | rezervováno |
 | SGF-008 | Trust Principles | rezervováno |
 | SGF-009 | Decision Protocol | **v1.0** CZ/EN/DE |

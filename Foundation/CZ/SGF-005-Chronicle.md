@@ -123,6 +123,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — Manifesto v1.1 (review ChatGPT)
+
+- **Co:** Decision Protocol nad připomínkami k SGF-006. Přijato: úvod o právu cítit se bezpečně; věta o respektu vs důvěře; podpis o začátku u jednoho člověka. Odmítnuto znovu: přečíslování na SGF-002 (D-010 / D-015). Verze **1.1** ve třech jazycích.
+- **Proč:** Text trefil tón; drobné posílení ho dělá ještě víc „ShadowGuard“, aniž by se z Manifesta stala esej.
+- **Další krok:** pokračovat v Foundation / Direction podle plánu; release stále ne.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

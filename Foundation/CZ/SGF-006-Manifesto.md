@@ -5,7 +5,7 @@
 | **Document ID** | SGF-006 |
 | **Title** | ShadowGuard Manifesto |
 | **Edition** | Founding Edition |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Language** | Czech (CZ) |
 | **Status** | Official |
 | **Created** | 2026-07-30 |
@@ -21,9 +21,13 @@
 
 ## Věříme, že…
 
+…**každý člověk má právo cítit se na internetu bezpečně.**
+
 …**bezpečnost nemusí být složitá.**
 
 …technologie mají lidem **sloužit**, nikoli je děsit.
+
+…**technologie si respekt získává svými schopnostmi, ale důvěru svým chováním.**
 
 …důvěra se **nedá koupit reklamou**.  
 Musí být získána poctivou prací.
@@ -57,8 +61,14 @@ Je to závazek **nikdy nepřestat vytvářet software, kterému mohou lidé dův
 
 ---
 
+ShadowGuard Initiative vznikla z touhy pomoci **jednomu člověku**.  
+Pokud jednou pomůže tisícům, nikdy nesmí zapomenout, **kde byl její začátek**.
+
+---
+
 ## Revision Chronicle
 
 | Revize | Datum | Změna |
 |--------|-------|--------|
 | Founding Edition 1.0 | 2026-07-30 | První oficiální znění (jedna stránka) |
+| Founding Edition 1.1 | 2026-07-30 | Právo na bezpečí jako úvod; respekt vs důvěra; podpis o začátku u jednoho člověka (review ChatGPT + Decision Protocol) |
