@@ -27,7 +27,7 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 ## Aktuální fokus
 
 1. ~~Foundation jádro + Manifesto + Decision Protocol + Trust~~ — v gitu.  
-2. **Security (P0):** [SGW-005](SGW-005-Security-Audit.md) — opravy + **deploy Lenovo OK** (2026-07-30). Další: P1 SSRF.  
+2. **Security:** [SGW-005](SGW-005-Security-Audit.md) — P0 na Lenovo OK; **P1 SSRF v kódu** (`9ebea1c`) — redeploy Lenovo.  
 3. **Design Principles (SGF-007)** — další Foundation manuskript.  
 4. Architecture až po bezpečném základu (D-017).
 
