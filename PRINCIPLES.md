@@ -17,4 +17,6 @@ Ten pravidel. Dvě minuty. Celý způsob myšlení.
 
 ---
 
-Hloubka: [Constitution](Foundation/CZ/SGF-001-Constitution.md) · [Manifesto](Foundation/CZ/SGF-006-Manifesto.md) · [Trust](Foundation/CZ/SGF-008-Trust-Principles.md) · [Design](Foundation/CZ/SGF-007-Design-Principles.md) · [Way](Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [Decision Protocol](Foundation/CZ/SGF-009-Decision-Protocol.md) · [DoD](Working/SGW-006-Definition-of-Done.md)
+Hloubka: [Constitution](Foundation/CZ/SGF-001-Constitution.md) · [Manifesto](Foundation/CZ/SGF-006-Manifesto.md) · [Trust](Foundation/CZ/SGF-008-Trust-Principles.md) · [Design](Foundation/CZ/SGF-007-Design-Principles.md) · [Evolution](Foundation/CZ/SGF-012-Evolution-Principles.md) · [Way](Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [Decision Protocol](Foundation/CZ/SGF-009-Decision-Protocol.md) · [DoD](Working/SGW-006-Definition-of-Done.md)
+
+**Evoluce (zkráceně):** staré generace do Origin Gallery, ne do koše · starší zařízení co nejdéle · žádná otravná reklama na displeji · klidné rozhraní.

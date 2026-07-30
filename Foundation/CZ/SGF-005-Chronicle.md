@@ -195,6 +195,14 @@ Formát zápisu:
 
 ---
 
+### 2026-07-30 — First Creation + Design Lab live; SGF-012 Evolution
+
+- **Co:** Live pojmenována **First Creation** (D-019); Design Lab (vzorkovnice + JSON dotazník) v patičce; tag `first-creation`; větev `ui/design-v2`; deploy Lenovo `d4ba2d5` + HOST 127.0.0.1. ChatGPT: release management, Origin Gallery, Evolution Principles. Zakladatel: podpora starších zařízení + žádná otravná reklama. Zapsáno **SGF-012** (CZ/EN/DE), **D-020**.
+- **Proč:** Disciplína verzí a hodnot na deset let; tátův default zamčený před instalací příští týden.
+- **Další krok:** instalace tátovi → sběr labu; design-v2 jen na větvi.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

@@ -9,7 +9,7 @@
 | **Language** | Czech (CZ) |
 | **Status** | Active |
 | **Created** | 2026-07-30 |
-| **Last Revision** | 2026-07-30 |
+| **Last Revision** | 2026-07-30 (SGF-012 Evolution) |
 | **Initiative** | ShadowGuard Initiative |
 
 **Motto:** Čísla drží pořádek. Pořadí čtení drží smysl.
@@ -47,6 +47,7 @@
 | [SGF-009](SGF-009-Decision-Protocol.md) | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-010 | Foundation Index | Active (tento dokument) | CZ (+ EN/DE dle potřeby) |
 | SGF-011 | Brand Identity | rezervováno — později | — |
+| [SGF-012](SGF-012-Evolution-Principles.md) | Evolution Principles | Founding Edition **v1.0** | CZ / EN / DE |
 
 > **Poznámka k číslování:** Návrh přeuspořádat Manifesto na SGF-002 byl zvážen a **odmítnut** (viz D-010). ID zůstávají stabilní; tento Index definuje pořadí čtení.
 
@@ -97,3 +98,4 @@ Detailní obsah fází → Working `SGW-002 Roadmap`.
 | Revize | Datum | Změna |
 |--------|-------|--------|
 | 1.0 | 2026-07-30 | První index; stabilní ID; pořadí čtení; fáze cesty |
+| 1.1 | 2026-07-30 | Katalog + SGF-012 Evolution Principles |

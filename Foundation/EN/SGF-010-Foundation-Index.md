@@ -47,6 +47,7 @@
 | SGF-009 | Decision Protocol | Founding Edition v1.0 | CZ / EN / DE |
 | SGF-010 | Foundation Index | Active (this document) | CZ / EN |
 | SGF-011 | Brand Identity | reserved — later | — |
+| SGF-012 | Evolution Principles | Founding Edition v1.0 | CZ / EN / DE |
 
 > **On numbering:** A proposal to renumber Manifesto to SGF-002 was considered and **declined** (see D-010). IDs stay stable; this Index defines reading order.
 
