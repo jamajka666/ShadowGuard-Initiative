@@ -4,10 +4,10 @@
 |------|---------|
 | **Document ID** | SGW-005 |
 | **Title** | Security Audit — ShadowGuard Shadvert |
-| **Version** | 1.0 |
-| **Date** | 2026-07-30 |
-| **Scope** | Live `shadowguard-shadvert.site` + kód `jamajka666/ShadowGuard-Shadvert` (private, clone na Asus) |
-| **Status** | Findings — opravy v běhu / plánované |
+| **Version** | 2.0 (delta) |
+| **Date** | 2026-07-30 · **Delta** 2026-08-06 |
+| **Scope** | Live `shadowguard-shadvert.site` + kód `ShadowGuard-Shadvert` (`main` + větev `ui/design-v2`) |
+| **Status** | Delta re-pass Trust Sprint — P0 live OK; zbývají P1/P2 + Trust Engine |
 | **Auditor** | Grok Build (lokální implementační vrstva) |
 
 **Motto:** Bezpečnost vytváří důvěru. Audit bez nápravy je jen report.
@@ -244,6 +244,80 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 
 ---
 
+## 9. Delta audit — 2026-08-06 (Trust Sprint)
+
+**Účel:** ne audit z nuly, ale ověření, že P0 drží, a doplnění nálezů před closed betou (D-021).
+
+### 9.1 Live re-check (`shadowguard-shadvert.site`)
+
+| Kontrola | Výsledek 2026-07-30 | Delta 2026-08-06 |
+|----------|---------------------|-----------------|
+| HTTPS / CF | OK | OK |
+| CSP | chybělo → pak helmet | **Ano** — `default-src 'self'`, `frame-ancestors 'none'`, `script-src 'self'` |
+| HSTS | chybělo | **Ano** — `max-age=15552000` |
+| X-Content-Type-Options | chybělo | **nosniff** |
+| Referrer-Policy | chybělo | **no-referrer** |
+| X-Frame-Options | chybělo | **SAMEORIGIN** (+ CSP frame-ancestors) |
+| `GET /api/health` | OK | OK (`version` 1.0.0) |
+| `POST /api/family/heartbeat` bez kódu | P0 bypass | **`403` Neplatný rodinný kód** ✓ |
+| `POST /api/analyze-ad` `{}` | 400 | **400** ✓ |
+| `npm audit` | 0 | **0** vulnerabilities |
+
+### 9.2 Větev `ui/design-v2`
+
+| Kontrola | Výsledek |
+|----------|----------|
+| Diff vs main | +SimpleResultCard, mapSimpleResult, sandbox `/design-v2`, docs, unit test mapování |
+| Server / auth změny | **Žádné** — jen frontend + docs |
+| Riziko pro live | Nízké, pokud se nenasadí jako default (D-019 / D-021: flag/closed) |
+| CI na této větvi | **Ne** — workflow jen `main`/`develop` → P2: rozšířit branches |
+
+### 9.3 Nové / přetrvávající nálezy (priorita)
+
+| ID | Priorita | Nález | Doporučení |
+|----|----------|--------|------------|
+| D-P1-1 | P1 | AI verdikt bez `rulesVersion` / bez krátké cache → flapping (produktová důvěra) | Trust Engine MVP |
+| D-P1-2 | P1 | Žádný React error boundary → bílý crash = ztráta důvěry seniora | Error boundary + srozumitelná hláška |
+| D-P1-3 | P1 | Žádný automatický dad-path smoke skript | `scripts/smoke-beta.sh` |
+| D-P2-1 | P2 | `url` / `userNote` v analyze-ad bez max length (jen rawText + image) | Cap např. url 2k, userNote 2k |
+| D-P2-2 | P2 | CI neběží na `ui/design-v2` | Přidat branch pattern |
+| D-P2-3 | P2 | `family/history` POST: při chybějícím FAMILY_CODE → 403 „neplatný kód“ (heartbeat má 503) | Sjednotit 503 |
+| D-P2-4 | P2 | Admin token v sessionStorage (P1-4 z dřívějška) | Odloženo do >20 testerů / po CSP jistotě |
+| D-P2-5 | P2 | Sdílený FAMILY_CODE (P1-3) | Odloženo — Beta Rule SGW-006 |
+| D-P3-1 | P3 | Data inventory pro uživatele (soukromí „ukázat“) | Working + UI text |
+
+### 9.4 Co delta **ne** otevřela znovu
+
+- Heartbeat bypass — **zavřeno**  
+- Rate-limit / helmet / SSRF / body limit / timing-safe — **drží**  
+- Gemini klíč ve frontendu — **ne**  
+- Secrets v gitu — **ne** (rychlý re-scan patternů OK)
+
+### 9.5 Pořadí práce po deltě
+
+1. D-P1-2 error boundary + D-P1-3 smoke  
+2. D-P1-1 Trust Engine MVP (rulesVersion, golden hybrid, cache)  
+3. D-P2-1 limity vstupů + D-P2-2 CI branches + D-P2-3 sjednocení family chyb  
+4. Closed beta balíček (feedback 8 otázek)  
+5. Jednoduchý režim jen pod flag (ne default main)
+
+### 9.6 Opravy v kódu (Asus, 2026-08-06) — před deployem Lenovo
+
+| ID | Stav v kódu |
+|----|-------------|
+| D-P1-1 | **Hotovo** — `RULES_VERSION`, `verdictSource`, in-memory verdict cache (TTL 10 min) |
+| D-P1-2 | **Hotovo** — `ErrorBoundary.jsx` kolem App |
+| D-P1-3 | **Hotovo** — `scripts/smoke-beta.sh` + `npm run smoke` (live PASSED) |
+| D-P2-1 | **Hotovo** — max url 2k, userNote 2k |
+| D-P2-2 | **Hotovo** — CI branches `ui/**`, `feature/**` |
+| D-P2-3 | **Hotovo** — family/history bez FAMILY_CODE → 503 |
+| Golden hybrid | **Hotovo** — `tests/phishingValidator.test.ts` (9 cases) |
+
+**Deploy Lenovo:** ještě pull + build + restart (server.ts změny).  
+**UI ErrorBoundary:** až po build/deploy frontendu.
+
+---
+
 ## Revision Chronicle
 
 | Revize | Datum | Změna |
@@ -254,3 +328,4 @@ Jeden kód pro celou rodinu v `localStorage` na tabletu.
 | 1.3 | 2026-07-30 | P1-1 SSRF guard v kódu; čeká deploy Lenovo |
 | 1.4 | 2026-07-30 | P1-2 cache alerts; CSP+HSTS; CI; tests; limity image/text |
 | 1.5 | 2026-07-30 | P1/P2 + SSRF deploy OK na Lenovo; scam-alerts MISS-ERROR→HIT ověřeno; timeout 12s |
+| 2.0 | 2026-08-06 | Delta Trust Sprint: live re-check P0 OK; D-P1/P2 tabulka; design-v2 scope |

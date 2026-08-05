@@ -9,7 +9,7 @@
 | **Language** | Czech (CZ) |
 | **Status** | Active |
 | **Created** | 2026-07-30 |
-| **Last Revision** | 2026-07-30 (D-020 Evolution Principles) |
+| **Last Revision** | 2026-08-06 (D-021 Trust Sprint) |
 | **Initiative** | ShadowGuard Initiative |
 | **Project** | Shadvert / celá iniciativa |
 
@@ -268,6 +268,21 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | D-018 | Feedback AI: SGF-007 + pořadí UX | accepted |
 | D-019 | First Creation freeze + lab + křižovatka větví | accepted |
 | D-020 | SGF-012 Evolution Principles + Origin Gallery | accepted |
+| D-021 | Trust Sprint 14 dní; SGW-007; ne SGF-009 Trust Req | accepted |
+
+---
+
+### D-021 — Trust Sprint po ChatGPT auditu (korekce ID + priority)
+
+| | |
+|--|--|
+| **Datum** | 2026-08-06 |
+| **Status** | accepted |
+| **Kontext** | ChatGPT audit: silná vize; produkt musí dohnat důvěru (konzistence verdiktů, vysvětlitelnost, stabilita, soukromí). Navrhoval nové **SGF-009 Trust Requirements** a „dokončit SGF-003 Way“. Security audit „od nuly“. Konkurence = zvyk kliknout bez přemýšlení. |
+| **Varianty** | A) Přijmout audit doslova včetně nových SGF ID · B) Přijmout směr priorit, **opravit číslování** a navázat na existující Foundation/Working · C) Ignorovat audit a pokračovat jen v UI |
+| **Rozhodnutí** | **B** — (1) **14denní Trust Sprint**: delta security → opravy P0/P1 + stabilita → Trust Engine MVP (hybrid, rulesVersion, golden, cache) → Jednoduchý režim **jen flag/closed** → tester balíček. (2) **Žádné SGF-009 Trust Requirements** — SGF-009 zůstává Decision Protocol; checklist důvěry = **SGW-007 Feature Trust Gate** + SGF-008 §VI + SGW-006. (3) Way (**SGF-002**) nepřepisovat; SGF-003 zůstává Founding Statement. (4) Security = **delta** nad SGW-005, ne greenfield. (5) Feedback Form: 8 otázek (včetně vzhledu, doporučení, připomínek); kanál Google Form + lab export. (6) Mimo sprint: per-device tokens, Brand SGF-011, Founding Edition release, wow widgety v defaultu. |
+| **Důvod** | Audit je strategicky správný; slepé přečíslování a přepis hotových manuskriptů by poškodilo stabilní ID (D-010) a ztratilo čas. Produkt teď potřebuje opakovatelný verdikt a closed betu. |
+| **Důsledky** | SGW-007 v1.0; SGW-002 v0.2; Chronicle 2026-08-06; Shadvert `docs/BETA-FEEDBACK-FORM.md`; implementace dle plánu Trust Sprint. |
 
 ---
 
@@ -349,6 +364,7 @@ Malé technické detaily denní práce sem nepatří — jen to, co ovlivní sm�
 | 1.0 | 2026-07-30 | D-016 — Manifesto v1.2, Way v1.1, pořadí další práce |
 | 1.0 | 2026-07-30 | D-017 — paralelní security audit + opravy P0 |
 | 1.0 | 2026-07-30 | D-018 — SGF-007 Design Principles + DoD z feedbacku AI |
+| 1.0 | 2026-08-06 | D-021 — Trust Sprint; SGW-007; korekce ChatGPT SGF-009 |
 
 ---
 

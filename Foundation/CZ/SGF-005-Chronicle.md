@@ -203,6 +203,15 @@ Formát zápisu:
 
 ---
 
+### 2026-08-06 — ChatGPT audit → Trust Sprint (14 dní)
+
+- **Co:** Produktový audit ChatGPT (strategie silná; produkt přísnější: konzistence, vysvětlitelnost, stabilita, soukromí). Grok Build: korekce — **ne** nové SGF-009 Trust Requirements (SGF-009 = Decision Protocol; checklist v SGF-008 + **SGW-007**); **ne** „dokončit SGF-003 Way“ (Way = SGF-002 v1.1). Zapsáno **D-021**, **SGW-007 Feature Trust Gate**, Roadmap 0.2, `docs/BETA-FEEDBACK-FORM.md` (8 otázek včetně vzhledu, doporučení, připomínek).
+- **Proč:** Před širšími testery soustředit energii na důvěryhodný produkt, ne další filozofii z nuly.
+- **Rozhodnutí / odkaz:** D-021 · SGW-007 · SGW-002 · plán Trust Sprint.
+- **Další krok:** Delta security audit (SGW-005) → stabilita + Trust Engine MVP → simple flag → closed beta.
+
+---
+
 ## Co záměrně v kronice není
 
 - Celé přepisy chatů s AI (jsou v archivu u zakladatele)  

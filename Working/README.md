@@ -4,16 +4,17 @@ Working odpovídá na otázku: **Jak to děláme teď?**
 
 Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově vázané.
 
-## Plánovaný katalog
+## Katalog (aktuální + plánovaný)
 
-| ID | Název | Účel |
-|----|--------|------|
-| SGW-001 | Sprint 0 | Příprava prostředí, checklisty spuštění |
-| SGW-002 | Roadmap | Fáze, tempo, milníky (bez zbytečného stresu) |
-| SGW-003 | Architecture Truth | Shadvert vs. referenční engine, data flow |
-| SGW-004 | Prompt Library | Prompty, JSON schémata, testovací sady |
-| SGW-005 | Testing | Automatické i manuální testy, senior protokol |
-| SGW-006 | Backlog | Nápady mimo aktuální sprint |
+| ID | Název | Účel | Stav |
+|----|--------|------|------|
+| SGW-001 | Sprint 0 | Příprava prostředí, checklisty spuštění | plán |
+| [SGW-002](SGW-002-Roadmap.md) | Roadmap | Fáze, tempo, milníky | **živý** |
+| SGW-003 | Architecture Truth | Shadvert vs. referenční engine, data flow | plán |
+| SGW-004 | Prompt Library | Prompty, JSON schémata, testovací sady | plán |
+| [SGW-005](SGW-005-Security-Audit.md) | Security Audit | Nálezy a nápravy Shadvert | **živý** |
+| [SGW-006](SGW-006-Definition-of-Done.md) | Definition of Done | Quality bar, P-štítky, Beta Rule | **živý** |
+| [SGW-007](SGW-007-Feature-Trust-Gate.md) | Feature Trust Gate | Checklist důvěry před merge funkce | **živý** |
 
 ## Oddělení od Foundation
 
@@ -24,13 +25,14 @@ Tyto manuskripty se smí často měnit. Jsou praktické, technické a časově v
 | Hodnoty a závazky | Sprinty a technika |
 | Revize vzácné | Aktualizace běžné |
 
-## Aktuální fokus
+## Aktuální fokus — Trust Sprint (od 2026-08-06)
 
-1. ~~Foundation jádro + Manifesto + Decision Protocol + Trust~~ — v gitu.  
-2. **Security:** [SGW-005](SGW-005-Security-Audit.md) — app + host Fáze A OK.  
-3. **Design Principles:** [SGF-007](../Foundation/CZ/SGF-007-Design-Principles.md) **v1.0** — další: propsat do UI.  
-4. **Definition of Done:** [SGW-006](SGW-006-Definition-of-Done.md).  
-5. Architecture / hlubší auth až po UX craft (D-018).
+1. ~~Foundation jádro + Trust Principles + Design~~ — v gitu.  
+2. **Delta security** → [SGW-005](SGW-005-Security-Audit.md).  
+3. **Stabilita + Trust Engine MVP** (hybrid, golden, cache).  
+4. **Jednoduchý režim** jen flag/closed (D-019, D-021).  
+5. **Closed beta** táta + 5–10 + feedback (8 otázek).  
+6. Gate: [SGW-007](SGW-007-Feature-Trust-Gate.md) · DoD: [SGW-006](SGW-006-Definition-of-Done.md).
 
 Způsob práce: [SGF-002 Way](../Foundation/CZ/SGF-002-ShadowGuard-Way.md) · [SGF-009 Decision Protocol](../Foundation/CZ/SGF-009-Decision-Protocol.md)  
 Roadmap: [SGW-002](SGW-002-Roadmap.md)  
