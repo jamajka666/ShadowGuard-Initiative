@@ -9,7 +9,7 @@
 | **Language** | Czech (CZ) |
 | **Status** | Active |
 | **Created** | 2026-07-30 |
-| **Last Revision** | 2026-07-30 |
+| **Last Revision** | 2026-08-06 |
 | **Initiative** | ShadowGuard Initiative |
 | **Project** | Shadvert / celá iniciativa |
 
@@ -209,6 +209,19 @@ Formát zápisu:
 - **Proč:** Před širšími testery soustředit energii na důvěryhodný produkt, ne další filozofii z nuly.
 - **Rozhodnutí / odkaz:** D-021 · SGW-007 · SGW-002 · plán Trust Sprint.
 - **Další krok:** Delta security audit (SGW-005) → stabilita + Trust Engine MVP → simple flag → closed beta.
+
+---
+
+### 2026-08-06 — Deploy Trust Sprint + Lenovo WIP sync + smoke PASSED
+
+- **Co:**
+  - Lenovo production WIP zapsán do `main` (`094dd06`: family export, device status, daily stats scaffolding + dříve nasazený Trust Sprint / UI polish).
+  - Clean rebuild + restart `shadvert.service` na Lenovu; Cloudflare tunnel active.
+  - Live smoke: `BASE_URL=https://shadowguard-shadvert.site npm run smoke` → **PASSED** (health, dad-path guardrails, CSP/HSTS).
+  - Tester balíček: `docs/TESTER-PACK.md` + copy-paste Google Form v `docs/BETA-FEEDBACK-FORM.md`.
+- **Proč:** Git = prod (důvěra a rollback); stabilita před closed betou tátovi; Varianta A — ne Design v2 default.
+- **Rozhodnutí / odkaz:** D-019 (First Creation freeze) · D-021 · simple mode jen flag · SGW-007.
+- **Další krok:** založit Google Form → instalace tátovi + 2–3 testeři → feedback do Chronicle.
 
 ---
 
